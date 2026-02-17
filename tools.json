@@ -1,0 +1,2582 @@
+[
+  {
+    "name": "ChatGPT",
+    "slug": "openai",
+    "url": "https://chat.openai.com",
+    "description": "AI chatbot for writing, brainstorming, coding, and research powered by GPT-4.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.8,
+    "popularity": 98,
+    "id": "chatgpt",
+    "summary": "OpenAI's flagship AI chatbot powered by GPT-4o. Handles writing, coding, analysis, and creative tasks through natural conversation. The most widely used AI tool globally.",
+    "features": [
+      "GPT-4o and GPT-4 models",
+      "Code interpreter and file analysis",
+      "Image generation with DALL-E",
+      "Custom GPTs and plugins",
+      "Voice conversation mode"
+    ],
+    "pricingDetails": "Free tier available. Plus $20/mo. Team $25/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper",
+    "url": "https://www.jasper.ai",
+    "description": "AI content platform for marketing teams to create on-brand copy at scale.",
+    "category": "Writing",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 78,
+    "id": "jasper",
+    "summary": "AI content platform built for marketing teams to produce on-brand copy at scale. Offers templates for ads, blogs, emails, and social media. Integrates brand voice and style guidelines.",
+    "features": [
+      "50+ content templates",
+      "Brand voice and tone control",
+      "SEO optimization mode",
+      "Team collaboration workflows",
+      "Browser extension"
+    ],
+    "pricingDetails": "Creator $49/mo. Pro $69/mo. Business custom pricing."
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copyai",
+    "url": "https://www.copy.ai",
+    "description": "AI-powered copywriting tool for generating marketing copy, emails, and social posts.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 62,
+    "id": "copy-ai",
+    "summary": "AI-powered copywriting platform for generating marketing copy, emails, and social posts. Uses workflows to automate repetitive content tasks. Popular with small businesses and agencies.",
+    "features": [
+      "90+ copywriting templates",
+      "Workflow automation",
+      "Brand voice customization",
+      "25+ languages supported",
+      "API access"
+    ],
+    "pricingDetails": "Free plan with 2,000 words/mo. Pro $49/mo. Enterprise custom."
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "url": "https://www.grammarly.com",
+    "description": "AI writing assistant that checks grammar, clarity, tone, and style in real time.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.7,
+    "popularity": 95,
+    "id": "grammarly",
+    "summary": "AI writing assistant that checks grammar, clarity, tone, and style in real time across platforms. Works as a browser extension, desktop app, and keyboard. Trusted by over 30 million users daily.",
+    "features": [
+      "Real-time grammar and spell check",
+      "Tone and clarity suggestions",
+      "Plagiarism detection",
+      "GrammarlyGO generative AI",
+      "Works across 500,000+ apps"
+    ],
+    "pricingDetails": "Free basic plan. Premium $12/mo. Business $15/member/mo."
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "url": "https://writesonic.com",
+    "description": "AI writer for SEO-optimized blog posts, ads, and product descriptions.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 48,
+    "id": "writesonic",
+    "summary": "AI writing platform for creating SEO-optimized blog posts, ads, and product descriptions. Includes Chatsonic, an AI chatbot with real-time web access. Supports multiple content formats.",
+    "features": [
+      "SEO-optimized article writer",
+      "Chatsonic chatbot with web access",
+      "AI image generation",
+      "100+ content templates",
+      "WordPress integration"
+    ],
+    "pricingDetails": "Free trial available. Individual $16/mo. Team $13/user/mo."
+  },
+  {
+    "name": "Rytr",
+    "slug": "rytr",
+    "url": "https://rytr.me",
+    "description": "Affordable AI writing assistant supporting 30+ languages and 20+ tones.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 40,
+    "id": "rytr",
+    "summary": "Affordable AI writing assistant supporting 30+ languages and 20+ tones of voice. Generates blog posts, emails, ads, and social content. Great for freelancers and small teams on a budget.",
+    "features": [
+      "30+ languages supported",
+      "20+ writing tones",
+      "40+ use case templates",
+      "Built-in plagiarism checker",
+      "Browser extension"
+    ],
+    "pricingDetails": "Free plan with 10k chars/mo. Saver $9/mo. Unlimited $29/mo."
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "url": "https://www.midjourney.com",
+    "description": "AI image generator creating stunning artwork from text prompts via Discord.",
+    "category": "Design",
+    "pricing": "Paid",
+    "rating": 4.8,
+    "popularity": 93,
+    "id": "midjourney",
+    "summary": "Leading AI image generator creating stunning artwork from text prompts via Discord. Known for exceptional artistic quality and aesthetic style. Widely used by designers, artists, and creative professionals.",
+    "features": [
+      "High-quality artistic image generation",
+      "Style and aspect ratio controls",
+      "Image variation and upscaling",
+      "Pan, zoom, and remix tools",
+      "Web interface and Discord bot"
+    ],
+    "pricingDetails": "Basic $10/mo. Standard $30/mo. Pro $60/mo. Mega $120/mo."
+  },
+  {
+    "name": "DALL·E",
+    "slug": "openai",
+    "url": "https://openai.com/dall-e-3",
+    "description": "OpenAI’s image generation model creating photorealistic images from text descriptions.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.6,
+    "popularity": 88,
+    "id": "dall-e",
+    "summary": "OpenAI's image generation model creating photorealistic and artistic images from text descriptions. Integrated into ChatGPT and available via API. Excels at following complex prompts accurately.",
+    "features": [
+      "Text-to-image generation",
+      "Image editing and inpainting",
+      "Variations of existing images",
+      "ChatGPT integration",
+      "API access for developers"
+    ],
+    "pricingDetails": "Included in ChatGPT Plus ($20/mo). API usage-based pricing per image."
+  },
+  {
+    "name": "Canva AI",
+    "slug": "canva",
+    "url": "https://www.canva.com",
+    "description": "Design platform with AI tools for generating images, removing backgrounds, and Magic Write.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.7,
+    "popularity": 95,
+    "id": "canva-ai",
+    "summary": "All-in-one design platform with AI-powered tools for image generation, background removal, and Magic Write. Used by over 170 million people for presentations, social media, and marketing materials.",
+    "features": [
+      "Magic Design auto-layout",
+      "AI image generation",
+      "Background remover",
+      "Magic Write text generation",
+      "Brand kit management"
+    ],
+    "pricingDetails": "Free plan available. Pro $13/mo. Teams $10/user/mo."
+  },
+  {
+    "name": "Adobe Firefly",
+    "slug": "adobe",
+    "url": "https://www.adobe.com/products/firefly.html",
+    "description": "Adobe’s generative AI for creating images, text effects, and vector graphics.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 82,
+    "id": "adobe-firefly",
+    "summary": "Adobe's generative AI engine for creating images, text effects, and vector graphics. Trained on licensed content for commercial safety. Integrated across Creative Cloud apps like Photoshop and Illustrator.",
+    "features": [
+      "Text-to-image generation",
+      "Generative fill in Photoshop",
+      "Text effects and styles",
+      "Vector graphic generation",
+      "Commercially safe training data"
+    ],
+    "pricingDetails": "Free tier with 25 credits/mo. Premium plan $10/mo. Included in CC subscriptions."
+  },
+  {
+    "name": "Figma AI",
+    "slug": "figma",
+    "url": "https://www.figma.com",
+    "description": "Collaborative design tool with AI features for auto-layout, prototyping, and content generation.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.6,
+    "popularity": 80,
+    "id": "figma-ai",
+    "summary": "Industry-standard collaborative design tool with AI features for auto-layout, prototyping, and content generation. Used by product teams for UI/UX design. Recently added AI-powered design suggestions.",
+    "features": [
+      "AI-powered auto-layout",
+      "Collaborative real-time editing",
+      "Prototyping and dev mode",
+      "AI content generation",
+      "Extensive plugin ecosystem"
+    ],
+    "pricingDetails": "Free for individuals. Professional $15/editor/mo. Organization $45/editor/mo."
+  },
+  {
+    "name": "GitHub Copilot",
+    "slug": "github",
+    "url": "https://github.com/features/copilot",
+    "description": "AI pair programmer that suggests code completions and entire functions in your editor.",
+    "category": "Coding",
+    "pricing": "Paid",
+    "rating": 4.7,
+    "popularity": 92,
+    "id": "github-copilot",
+    "summary": "AI pair programmer by GitHub and OpenAI that suggests code completions and entire functions in your editor. Supports all major languages and IDEs. The most widely adopted AI coding assistant.",
+    "features": [
+      "Real-time code suggestions",
+      "Multi-line function completion",
+      "Chat interface for coding questions",
+      "CLI integration",
+      "Supports all major IDEs"
+    ],
+    "pricingDetails": "Free for students/OSS. Individual $10/mo. Business $19/user/mo. Enterprise $39/user/mo."
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "url": "https://cursor.sh",
+    "description": "AI-first code editor built on VS Code with intelligent autocomplete and chat.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.6,
+    "popularity": 68,
+    "id": "cursor",
+    "summary": "AI-first code editor built on VS Code with intelligent autocomplete, multi-file editing, and codebase-aware chat. Rapidly growing among developers for its deep AI integration. Supports multiple AI models.",
+    "features": [
+      "Codebase-aware AI chat",
+      "Multi-file editing with Composer",
+      "Tab autocomplete",
+      "Supports GPT-4 and Claude",
+      "VS Code extension compatibility"
+    ],
+    "pricingDetails": "Free hobby tier. Pro $20/mo. Business $40/user/mo."
+  },
+  {
+    "name": "Replit AI",
+    "slug": "replit",
+    "url": "https://replit.com",
+    "description": "Cloud IDE with AI coding assistant for generating, debugging, and explaining code.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 58,
+    "id": "replit-ai",
+    "summary": "Cloud IDE with built-in AI coding assistant for generating, debugging, and explaining code. Enables building and deploying apps entirely in the browser. Great for learning and rapid prototyping.",
+    "features": [
+      "AI code generation and chat",
+      "Browser-based IDE",
+      "Instant deployment",
+      "Multiplayer collaboration",
+      "50+ programming languages"
+    ],
+    "pricingDetails": "Free plan available. Replit Core $25/mo. Teams custom pricing."
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "url": "https://www.tabnine.com",
+    "description": "AI code completion tool that runs locally or in the cloud, supporting 30+ languages.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 45,
+    "id": "tabnine",
+    "summary": "AI code completion tool that runs locally or in the cloud, supporting 30+ languages. Focuses on privacy with on-premise deployment options. Personalizes to your codebase and style.",
+    "features": [
+      "Local and cloud AI models",
+      "30+ language support",
+      "On-premise deployment option",
+      "Codebase personalization",
+      "All major IDE plugins"
+    ],
+    "pricingDetails": "Free basic plan. Pro $12/user/mo. Enterprise custom pricing."
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "url": "https://codeium.com",
+    "description": "Free AI code completion and chat supporting 70+ languages and 40+ editors.",
+    "category": "Coding",
+    "pricing": "Free",
+    "rating": 4.4,
+    "popularity": 52,
+    "id": "codeium",
+    "summary": "Free AI code completion and chat tool supporting 70+ languages and 40+ editors. Offers fast, high-quality suggestions without cost. Enterprise version adds codebase-aware features.",
+    "features": [
+      "Free unlimited autocomplete",
+      "70+ language support",
+      "40+ editor integrations",
+      "AI chat for code questions",
+      "Enterprise codebase indexing"
+    ],
+    "pricingDetails": "Free for individuals. Teams $15/user/mo. Enterprise custom."
+  },
+  {
+    "name": "HubSpot AI",
+    "slug": "hubspot",
+    "url": "https://www.hubspot.com/artificial-intelligence",
+    "description": "AI tools built into HubSpot CRM for content creation, forecasting, and customer insights.",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 80,
+    "id": "hubspot-ai",
+    "summary": "AI tools integrated into HubSpot's CRM platform for content creation, email writing, forecasting, and customer insights. Automates marketing, sales, and service workflows. Used by 200,000+ businesses.",
+    "features": [
+      "AI content writer for blogs and emails",
+      "Predictive lead scoring",
+      "Chatbot builder",
+      "AI-powered forecasting",
+      "Campaign assistant"
+    ],
+    "pricingDetails": "Free CRM with basic AI. Starter $20/mo. Professional $890/mo. Enterprise $3,600/mo."
+  },
+  {
+    "name": "Surfer SEO",
+    "slug": "surferseo",
+    "url": "https://surferseo.com",
+    "description": "AI-driven SEO tool for content optimization, keyword research, and SERP analysis.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 58,
+    "id": "surfer-seo",
+    "summary": "AI-driven SEO tool for optimizing content to rank higher in search results. Analyzes top-ranking pages and provides real-time content scoring. Integrates with popular writing tools.",
+    "features": [
+      "Content editor with SEO scoring",
+      "SERP analyzer",
+      "Keyword research tool",
+      "AI article outline generator",
+      "Google Docs and WordPress plugins"
+    ],
+    "pricingDetails": "Essential $89/mo. Scale $129/mo. Scale AI $219/mo. Enterprise custom."
+  },
+  {
+    "name": "Semrush",
+    "slug": "semrush",
+    "url": "https://www.semrush.com",
+    "description": "All-in-one marketing toolkit with AI-powered SEO, PPC, and competitive analysis.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 82,
+    "id": "semrush",
+    "summary": "All-in-one digital marketing toolkit with AI-powered SEO, PPC, content marketing, and competitive analysis. Trusted by 10M+ marketers worldwide. Comprehensive database of keywords and backlinks.",
+    "features": [
+      "Keyword research and tracking",
+      "Site audit and SEO analysis",
+      "Competitor analysis tools",
+      "AI writing assistant",
+      "PPC and ad research"
+    ],
+    "pricingDetails": "Pro $130/mo. Guru $250/mo. Business $500/mo."
+  },
+  {
+    "name": "Mailchimp AI",
+    "slug": "mailchimp",
+    "url": "https://mailchimp.com",
+    "description": "Email marketing platform with AI for content generation, send-time optimization, and segmentation.",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 75,
+    "id": "mailchimp-ai",
+    "summary": "Email marketing platform with AI tools for content generation, send-time optimization, and audience segmentation. Part of Intuit. Serves millions of small businesses for email campaigns.",
+    "features": [
+      "AI email content generator",
+      "Send-time optimization",
+      "Predictive segmentation",
+      "Campaign performance insights",
+      "Customer journey builder"
+    ],
+    "pricingDetails": "Free plan up to 500 contacts. Essentials $13/mo. Standard $20/mo. Premium $350/mo."
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "url": "https://runwayml.com",
+    "description": "AI creative suite for video generation, editing, and visual effects using Gen-3.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.6,
+    "popularity": 78,
+    "id": "runway",
+    "summary": "AI creative suite for video generation and editing using Gen-3 Alpha model. Creates realistic video clips from text and images. Used by filmmakers and content creators for visual effects.",
+    "features": [
+      "Gen-3 text-to-video generation",
+      "Motion brush for animations",
+      "AI video inpainting",
+      "Green screen and background removal",
+      "Frame interpolation"
+    ],
+    "pricingDetails": "Free tier with limited credits. Standard $15/mo. Pro $35/mo. Unlimited $95/mo."
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "url": "https://www.synthesia.io",
+    "description": "AI video platform creating professional videos with realistic avatars from text scripts.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 65,
+    "id": "synthesia",
+    "summary": "AI video platform for creating professional videos with realistic digital avatars from text scripts. No cameras or actors needed. Widely used for corporate training, onboarding, and marketing.",
+    "features": [
+      "160+ AI avatars",
+      "120+ languages and voices",
+      "Custom avatar creation",
+      "Screen recording integration",
+      "Brand kit and templates"
+    ],
+    "pricingDetails": "Starter $22/mo. Creator $67/mo. Enterprise custom pricing."
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "url": "https://www.descript.com",
+    "description": "AI-powered video and podcast editor with transcription, filler word removal, and eye contact correction.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 64,
+    "id": "descript",
+    "summary": "AI-powered video and podcast editor where you edit media by editing text. Features automatic transcription, filler word removal, and eye contact correction. Intuitive for non-technical editors.",
+    "features": [
+      "Text-based video editing",
+      "Automatic transcription",
+      "Filler word removal",
+      "AI eye contact correction",
+      "Screen recording"
+    ],
+    "pricingDetails": "Free plan available. Hobbyist $24/mo. Pro $33/mo."
+  },
+  {
+    "name": "HeyGen",
+    "slug": "heygen",
+    "url": "https://www.heygen.com",
+    "description": "AI video generator with customizable avatars for marketing, training, and sales videos.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 58,
+    "id": "heygen",
+    "summary": "AI video generator with customizable digital avatars for marketing, training, and sales videos. Supports video translation into 40+ languages with lip sync. Fast growing in enterprise adoption.",
+    "features": [
+      "100+ AI avatars",
+      "40+ language video translation",
+      "Custom avatar creation",
+      "Talking photo generation",
+      "API for video automation"
+    ],
+    "pricingDetails": "Free plan with 1 credit. Creator $29/mo. Business $89/mo. Enterprise custom."
+  },
+  {
+    "name": "Pika",
+    "slug": "pika",
+    "url": "https://pika.art",
+    "description": "AI video generation platform turning text and images into cinematic video clips.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 55,
+    "id": "pika",
+    "summary": "AI video generation platform turning text and images into cinematic video clips. Known for creative and artistic video outputs. Offers intuitive editing tools for modifying generated videos.",
+    "features": [
+      "Text-to-video generation",
+      "Image-to-video animation",
+      "Video extend and modify",
+      "Lip sync feature",
+      "4K video upscaling"
+    ],
+    "pricingDetails": "Free tier with daily credits. Standard $10/mo. Pro $35/mo. Unlimited $70/mo."
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "url": "https://elevenlabs.io",
+    "description": "AI voice synthesis platform with ultra-realistic text-to-speech and voice cloning.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.7,
+    "popularity": 82,
+    "id": "elevenlabs",
+    "summary": "Leading AI voice synthesis platform with ultra-realistic text-to-speech and voice cloning capabilities. Supports 29 languages with natural-sounding output. Used for audiobooks, dubbing, and content creation.",
+    "features": [
+      "Ultra-realistic text-to-speech",
+      "Voice cloning from samples",
+      "29 language support",
+      "Voice library marketplace",
+      "API and developer tools"
+    ],
+    "pricingDetails": "Free tier available. Starter $5/mo. Creator $22/mo. Pro $99/mo. Enterprise custom."
+  },
+  {
+    "name": "Murf",
+    "slug": "murf",
+    "url": "https://murf.ai",
+    "description": "AI voice generator with 120+ voices for voiceovers, e-learning, and presentations.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 42,
+    "id": "murf-ai",
+    "summary": "AI voice generator with 120+ realistic voices for voiceovers, e-learning, and presentations. Offers studio-quality output with voice customization. Simple interface for non-technical users.",
+    "features": [
+      "120+ AI voices",
+      "Voice cloning",
+      "Pitch and speed control",
+      "Video and presentation sync",
+      "API access"
+    ],
+    "pricingDetails": "Free trial available. Creator $29/mo. Business $79/mo. Enterprise custom."
+  },
+  {
+    "name": "Soundraw",
+    "slug": "soundraw",
+    "url": "https://soundraw.io",
+    "description": "AI music generator creating royalty-free tracks customized by mood, genre, and length.",
+    "category": "Audio",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 38,
+    "id": "soundraw",
+    "summary": "AI music generator creating royalty-free tracks customized by mood, genre, and length. Generates unique compositions that can be edited and customized. Ideal for video creators and content producers.",
+    "features": [
+      "Customizable AI music generation",
+      "Mood and genre selection",
+      "Song structure editing",
+      "Royalty-free licensing",
+      "Unlimited downloads on paid plans"
+    ],
+    "pricingDetails": "Starter $17/mo. Pro $33/mo. Unlimited $49/mo."
+  },
+  {
+    "name": "AIVA",
+    "slug": "aiva",
+    "url": "https://www.aiva.ai",
+    "description": "AI music composition assistant creating emotional soundtracks for videos, games, and ads.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 35,
+    "id": "aiva",
+    "summary": "AI music composition assistant creating emotional soundtracks for videos, games, and ads. Composes in 250+ styles from classical to electronic. Recognized as a virtual composer by SACEM.",
+    "features": [
+      "250+ music styles",
+      "Full song composition",
+      "MIDI and audio export",
+      "Soundtrack customization",
+      "Influence from uploaded tracks"
+    ],
+    "pricingDetails": "Free plan (limited). Standard $15/mo. Pro $49/mo."
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion",
+    "url": "https://www.notion.so/product/ai",
+    "description": "AI assistant built into Notion for writing, summarizing, brainstorming, and autofilling databases.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 82,
+    "id": "notion-ai",
+    "summary": "AI assistant built into Notion for writing, summarizing, brainstorming, and autofilling databases. Deeply integrated with your workspace for context-aware responses. Enhances productivity across notes, docs, and projects.",
+    "features": [
+      "AI writing and editing",
+      "Meeting summary generation",
+      "Database autofill",
+      "Q&A across workspace",
+      "Translation and tone adjustment"
+    ],
+    "pricingDetails": "Notion AI add-on $10/member/mo on top of Notion plan."
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter",
+    "url": "https://otter.ai",
+    "description": "AI meeting assistant that records, transcribes, and summarizes meetings in real time.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 62,
+    "id": "otter-ai",
+    "summary": "AI meeting assistant that records, transcribes, and summarizes meetings in real time. Integrates with Zoom, Google Meet, and Teams. Generates action items and lets you search across all conversations.",
+    "features": [
+      "Real-time transcription",
+      "Automated meeting summaries",
+      "Action item extraction",
+      "Zoom/Meet/Teams integration",
+      "Searchable conversation history"
+    ],
+    "pricingDetails": "Free plan with 300 min/mo. Pro $17/mo. Business $40/user/mo."
+  },
+  {
+    "name": "Reclaim AI",
+    "slug": "reclaim",
+    "url": "https://reclaim.ai",
+    "description": "AI scheduling tool that automatically finds the best time for tasks, habits, and meetings.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 38,
+    "id": "reclaim-ai",
+    "summary": "AI scheduling tool that automatically finds the best time for tasks, habits, and meetings. Syncs with Google Calendar to protect focus time. Helps teams coordinate without scheduling conflicts.",
+    "features": [
+      "Smart task scheduling",
+      "Habit and routine planning",
+      "Meeting scheduling links",
+      "Focus time protection",
+      "Team calendar coordination"
+    ],
+    "pricingDetails": "Free plan available. Starter $10/user/mo. Business $15/user/mo."
+  },
+  {
+    "name": "Motion",
+    "slug": "motion",
+    "url": "https://www.usemotion.com",
+    "description": "AI-powered calendar and project manager that auto-schedules tasks and prioritizes your day.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "popularity": 45,
+    "id": "motion",
+    "summary": "AI-powered calendar and project manager that auto-schedules tasks and prioritizes your day. Dynamically reorganizes your schedule as priorities change. Combines task management with intelligent time blocking.",
+    "features": [
+      "AI auto-scheduling",
+      "Dynamic task prioritization",
+      "Project management",
+      "Meeting scheduler",
+      "Team workload balancing"
+    ],
+    "pricingDetails": "Individual $34/mo. Team $12/user/mo."
+  },
+  {
+    "name": "Mem",
+    "slug": "mem",
+    "url": "https://get.mem.ai",
+    "description": "AI-powered note-taking app that self-organizes and surfaces relevant information.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 30,
+    "id": "mem",
+    "summary": "AI-powered note-taking app that self-organizes and surfaces relevant information automatically. Uses AI to connect related notes and find answers from your knowledge base. No manual folder organization needed.",
+    "features": [
+      "AI self-organization",
+      "Smart search across notes",
+      "Meeting note capture",
+      "Related note suggestions",
+      "Collections and tags"
+    ],
+    "pricingDetails": "Free plan available. Mem Plus $15/mo. Teams $20/user/mo."
+  },
+  {
+    "name": "Julius AI",
+    "slug": "julius",
+    "url": "https://julius.ai",
+    "description": "AI data analyst that interprets spreadsheets, creates visualizations, and answers data questions.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 32,
+    "id": "julius-ai",
+    "summary": "AI data analyst that interprets spreadsheets, creates visualizations, and answers data questions in plain language. Upload CSV, Excel, or connect databases. Makes data analysis accessible to non-technical users.",
+    "features": [
+      "Natural language data queries",
+      "Automatic chart generation",
+      "CSV and Excel analysis",
+      "Statistical modeling",
+      "Data cleaning tools"
+    ],
+    "pricingDetails": "Free tier available. Essential $20/mo. Pro $50/mo."
+  },
+  {
+    "name": "Obviously AI",
+    "slug": "obviouslyai",
+    "url": "https://www.obviously.ai",
+    "description": "No-code AI platform for building predictive models from your data in minutes.",
+    "category": "Data",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 25,
+    "id": "obviously-ai",
+    "summary": "No-code AI platform for building predictive models from your data in minutes. Automates machine learning pipeline from data to predictions. Designed for business analysts without ML expertise.",
+    "features": [
+      "No-code predictive modeling",
+      "Automated feature engineering",
+      "Model explainability reports",
+      "API deployment",
+      "Integration with data sources"
+    ],
+    "pricingDetails": "Growth $75/mo. Enterprise custom pricing."
+  },
+  {
+    "name": "MonkeyLearn",
+    "slug": "monkeylearn",
+    "url": "https://monkeylearn.com",
+    "description": "No-code text analytics platform for sentiment analysis, classification, and extraction.",
+    "category": "Data",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 28,
+    "id": "monkeylearn",
+    "summary": "No-code text analytics platform for sentiment analysis, classification, and data extraction. Pre-built and custom models for analyzing customer feedback. Integrates with popular business tools.",
+    "features": [
+      "Sentiment analysis",
+      "Text classification",
+      "Keyword extraction",
+      "Custom model training",
+      "Zapier and API integrations"
+    ],
+    "pricingDetails": "Team $299/mo. Business $500/mo. Enterprise custom."
+  },
+  {
+    "name": "Claude",
+    "slug": "anthropic",
+    "url": "https://claude.ai",
+    "description": "Anthropic’s AI assistant excelling at analysis, coding, math, and long-document reasoning.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.7,
+    "popularity": 85,
+    "id": "claude",
+    "summary": "Anthropic's AI assistant excelling at analysis, coding, math, and long-document reasoning. Known for thoughtful, nuanced responses and strong safety alignment. Supports 200K token context windows.",
+    "features": [
+      "200K token context window",
+      "Advanced reasoning and analysis",
+      "Code generation and review",
+      "Document and PDF analysis",
+      "Artifacts for interactive content"
+    ],
+    "pricingDetails": "Free tier available. Pro $20/mo. Team $25/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "url": "https://www.perplexity.ai",
+    "description": "AI-powered search engine delivering cited, real-time answers from across the web.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.7,
+    "popularity": 82,
+    "id": "perplexity",
+    "summary": "AI-powered search engine delivering cited, real-time answers from across the web. Combines large language models with live web search for accurate, sourced responses. Growing alternative to traditional search.",
+    "features": [
+      "Real-time web search with citations",
+      "Follow-up question support",
+      "Focus modes for specific sources",
+      "File upload and analysis",
+      "Collections for organizing research"
+    ],
+    "pricingDetails": "Free plan available. Pro $20/mo with GPT-4 and Claude access."
+  },
+  {
+    "name": "Gemini",
+    "slug": "google",
+    "url": "https://gemini.google.com",
+    "description": "Google’s multimodal AI assistant for writing, research, coding, and image understanding.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 92,
+    "id": "gemini",
+    "summary": "Google's multimodal AI assistant for writing, research, coding, and image understanding. Integrated with Google Workspace, Search, and Android. Powered by Gemini 1.5 Pro with 1M token context.",
+    "features": [
+      "1M token context window",
+      "Multimodal image and video understanding",
+      "Google Workspace integration",
+      "Code generation",
+      "Google Search grounding"
+    ],
+    "pricingDetails": "Free tier available. Gemini Advanced $20/mo with Google One AI Premium."
+  },
+  {
+    "name": "Sora",
+    "slug": "openai",
+    "url": "https://openai.com/sora",
+    "description": "OpenAI’s text-to-video model generating realistic cinematic clips from prompts.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 80,
+    "id": "sora",
+    "summary": "OpenAI's text-to-video model generating realistic cinematic clips from text prompts. Produces up to 60-second videos with consistent characters and physics. Available through ChatGPT Pro subscription.",
+    "features": [
+      "Text-to-video generation",
+      "Up to 60-second clips",
+      "Realistic motion and physics",
+      "Storyboard mode",
+      "Video remixing and editing"
+    ],
+    "pricingDetails": "Included in ChatGPT Plus ($20/mo) with limits. Unlimited in Pro ($200/mo)."
+  },
+  {
+    "name": "Flux",
+    "slug": null,
+    "url": "https://flux-ai.io",
+    "description": "Open-source image generation model rivaling Midjourney with fast, high-quality outputs.",
+    "category": "Design",
+    "pricing": "Free",
+    "rating": 4.4,
+    "popularity": 52,
+    "id": "flux-ai",
+    "summary": "Open-source image generation model by Black Forest Labs rivaling Midjourney with fast, high-quality outputs. Available in multiple variants from fast to ultra-detailed. Widely adopted in the open-source AI community.",
+    "features": [
+      "Open-source model weights",
+      "Multiple quality tiers (Schnell, Dev, Pro)",
+      "Fast generation speed",
+      "High prompt adherence",
+      "LoRA fine-tuning support"
+    ],
+    "pricingDetails": "Free and open-source. Pro API available through Black Forest Labs."
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stablediffusion",
+    "url": "https://stability.ai",
+    "description": "Open-source AI image generator with full local control and extensive community models.",
+    "category": "Design",
+    "pricing": "Free",
+    "rating": 4.5,
+    "popularity": 78,
+    "id": "stable-diffusion",
+    "summary": "Open-source AI image generator by Stability AI with full local control and extensive community models. Offers complete customization through fine-tuning and LoRA. The foundation for thousands of community models.",
+    "features": [
+      "Fully open-source",
+      "Local GPU deployment",
+      "Extensive community models (CivitAI)",
+      "ControlNet for precise guidance",
+      "Inpainting and img2img"
+    ],
+    "pricingDetails": "Free and open-source. Stability AI API from $0.01/image. DreamStudio credits available."
+  },
+  {
+    "name": "Leonardo AI",
+    "slug": "leonardo",
+    "url": "https://leonardo.ai",
+    "description": "AI art platform with fine-tuned models for game assets, concept art, and illustrations.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 55,
+    "id": "leonardo-ai",
+    "summary": "AI art platform with fine-tuned models for game assets, concept art, and illustrations. Offers model training and real-time canvas generation. Popular with game developers and digital artists.",
+    "features": [
+      "Fine-tuned art models",
+      "Real-time canvas generation",
+      "Custom model training",
+      "3D texture generation",
+      "Motion generation for images"
+    ],
+    "pricingDetails": "Free plan with 150 tokens/day. Apprentice $12/mo. Artisan $30/mo. Maestro $60/mo."
+  },
+  {
+    "name": "v0",
+    "slug": "vercel",
+    "url": "https://v0.dev",
+    "description": "Vercel’s AI tool that generates production-ready React UI components from text prompts.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 60,
+    "id": "v0",
+    "summary": "Vercel's AI tool that generates production-ready React UI components from text prompts and images. Creates clean, responsive code using shadcn/ui and Tailwind CSS. Ideal for rapid frontend prototyping.",
+    "features": [
+      "Text-to-React component generation",
+      "shadcn/ui and Tailwind CSS output",
+      "Image-to-code conversion",
+      "Iterative refinement chat",
+      "One-click Vercel deployment"
+    ],
+    "pricingDetails": "Free tier with limited generations. Premium $20/mo."
+  },
+  {
+    "name": "Bolt",
+    "slug": null,
+    "url": "https://bolt.new",
+    "description": "AI full-stack app builder that generates, runs, and deploys web apps in the browser.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 58,
+    "id": "bolt-new",
+    "summary": "AI full-stack app builder by StackBlitz that generates, runs, and deploys web apps directly in the browser. Creates complete applications from natural language descriptions. Supports multiple frameworks.",
+    "features": [
+      "Full-stack app generation",
+      "In-browser code execution",
+      "Multi-framework support",
+      "One-click deployment",
+      "Real-time code editing"
+    ],
+    "pricingDetails": "Free tier available. Pro $20/mo. Team $40/user/mo."
+  },
+  {
+    "name": "Lovable",
+    "slug": null,
+    "url": "https://lovable.dev",
+    "description": "AI software engineer that builds full-stack web applications from natural language descriptions.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 45,
+    "id": "lovable",
+    "summary": "AI software engineer that builds full-stack web applications from natural language descriptions. Generates complete apps with frontend, backend, and database. Formerly known as GPT Engineer.",
+    "features": [
+      "Full-stack app generation",
+      "Supabase backend integration",
+      "GitHub sync",
+      "Real-time preview",
+      "Iterative AI editing"
+    ],
+    "pricingDetails": "Free tier available. Starter $20/mo. Launch $50/mo. Scale $100/mo."
+  },
+  {
+    "name": "Windsurf",
+    "slug": null,
+    "url": "https://windsurf.ai",
+    "description": "AI-powered code editor with deep codebase understanding and multi-file editing capabilities.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 50,
+    "id": "windsurf",
+    "summary": "AI-powered code editor by Codeium with deep codebase understanding and multi-file editing capabilities. Features Cascade, an agentic AI that can reason across your entire project. Built on VS Code foundation.",
+    "features": [
+      "Cascade agentic AI flows",
+      "Deep codebase understanding",
+      "Multi-file editing",
+      "Terminal command suggestions",
+      "VS Code extension support"
+    ],
+    "pricingDetails": "Free tier available. Pro $15/mo. Enterprise custom."
+  },
+  {
+    "name": "Devin",
+    "slug": null,
+    "url": "https://devin.ai",
+    "description": "Autonomous AI software engineer that plans, codes, debugs, and deploys end-to-end.",
+    "category": "Coding",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 55,
+    "id": "devin",
+    "summary": "Autonomous AI software engineer by Cognition Labs that plans, codes, debugs, and deploys end-to-end. Works independently on complex engineering tasks in its own development environment. First AI software engineer.",
+    "features": [
+      "Autonomous coding and debugging",
+      "Full development environment",
+      "Long-running task execution",
+      "Slack and GitHub integration",
+      "Learns from codebase context"
+    ],
+    "pricingDetails": "Enterprise pricing at $500/mo per seat."
+  },
+  {
+    "name": "Gamma",
+    "slug": null,
+    "url": "https://gamma.app",
+    "description": "AI presentation maker that generates beautiful slide decks and documents from prompts.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 60,
+    "id": "gamma",
+    "summary": "AI presentation maker that generates beautiful slide decks, documents, and web pages from prompts. Creates visually polished content in seconds. No design skills required.",
+    "features": [
+      "AI slide deck generation",
+      "One-click redesign",
+      "Interactive web page export",
+      "Image and chart generation",
+      "Collaborative editing"
+    ],
+    "pricingDetails": "Free plan with 400 credits. Plus $10/mo. Pro $20/mo."
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "url": "https://tome.app",
+    "description": "AI-powered storytelling tool that creates polished presentations and narratives instantly.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 42,
+    "id": "tome",
+    "summary": "AI-powered storytelling and presentation tool that creates polished narratives and decks instantly. Designed for sales, marketing, and executive communications. Combines AI generation with rich media.",
+    "features": [
+      "AI presentation generation",
+      "Narrative-driven layouts",
+      "Embeddable media and 3D",
+      "Analytics and tracking",
+      "Brand theming"
+    ],
+    "pricingDetails": "Free plan available. Professional $16/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": null,
+    "url": "https://www.beautiful.ai",
+    "description": "AI presentation software with smart templates that auto-adapt layout as you add content.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 40,
+    "id": "beautiful-ai",
+    "summary": "AI presentation software with smart templates that auto-adapt layout as you add content. Ensures professional design without manual formatting. Great for teams needing consistent branded decks.",
+    "features": [
+      "Smart slide templates",
+      "Auto-adapting layouts",
+      "Brand controls",
+      "Team collaboration",
+      "PowerPoint export"
+    ],
+    "pricingDetails": "Pro $12/mo. Team $40/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Luma AI",
+    "slug": null,
+    "url": "https://lumalabs.ai",
+    "description": "AI platform for creating photorealistic 3D models and videos from text or images.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 48,
+    "id": "luma-ai",
+    "summary": "AI platform for creating photorealistic 3D models and videos from text or images. Dream Machine generates high-quality video clips. Also offers 3D capture via NeRF technology from phone scans.",
+    "features": [
+      "Dream Machine video generation",
+      "Text and image to video",
+      "3D capture from photos",
+      "NeRF-based 3D modeling",
+      "API access"
+    ],
+    "pricingDetails": "Free tier with 30 generations/mo. Standard $30/mo. Pro $100/mo."
+  },
+  {
+    "name": "Kling AI",
+    "slug": null,
+    "url": "https://klingai.com",
+    "description": "AI video generation model producing high-quality cinematic clips with realistic motion.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 45,
+    "id": "kling-ai",
+    "summary": "AI video generation model by Kuaishou producing high-quality cinematic clips with realistic motion. Supports text-to-video and image-to-video with impressive consistency. Competitive with Sora and Runway.",
+    "features": [
+      "Text-to-video generation",
+      "Image-to-video animation",
+      "Up to 2-minute video clips",
+      "Motion brush control",
+      "Lip sync capabilities"
+    ],
+    "pricingDetails": "Free tier with daily credits. Standard $5.99/mo. Pro $21.99/mo. Premier $53.99/mo."
+  },
+  {
+    "name": "Suno",
+    "slug": null,
+    "url": "https://suno.com",
+    "description": "AI music generator that creates full songs with vocals, lyrics, and instrumentals from prompts.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.6,
+    "popularity": 68,
+    "id": "suno",
+    "summary": "AI music generator that creates full songs with vocals, lyrics, and instrumentals from text prompts. Produces remarkably realistic music across genres. One of the most impressive generative audio tools available.",
+    "features": [
+      "Full song generation with vocals",
+      "Custom lyrics support",
+      "Multiple genre styles",
+      "Song extension and remixing",
+      "High-quality audio output"
+    ],
+    "pricingDetails": "Free plan with 10 songs/day. Pro $10/mo. Premier $30/mo."
+  },
+  {
+    "name": "Udio",
+    "slug": null,
+    "url": "https://www.udio.com",
+    "description": "AI music creation platform generating studio-quality songs across any genre from text.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 55,
+    "id": "udio",
+    "summary": "AI music creation platform generating studio-quality songs across any genre from text descriptions. Produces realistic vocals and instrumentals. Direct competitor to Suno with emphasis on audio quality.",
+    "features": [
+      "Text-to-music generation",
+      "High-fidelity audio output",
+      "Genre and style control",
+      "Song extension features",
+      "Vocal and instrumental tracks"
+    ],
+    "pricingDetails": "Free tier with 10 generations/day. Standard $10/mo. Pro $30/mo."
+  },
+  {
+    "name": "Zapier AI",
+    "slug": "zapier",
+    "url": "https://zapier.com/ai",
+    "description": "AI-powered automation platform connecting 6,000+ apps with natural language workflows.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 72,
+    "id": "zapier-ai",
+    "summary": "AI-powered automation platform connecting 7,000+ apps with natural language workflows. Build complex automations by describing what you want in plain English. The most popular no-code automation tool.",
+    "features": [
+      "7,000+ app integrations",
+      "Natural language workflow builder",
+      "AI-powered Zap creation",
+      "Chatbots and interfaces",
+      "Tables database feature"
+    ],
+    "pricingDetails": "Free plan with 100 tasks/mo. Starter $20/mo. Professional $49/mo. Team $69/mo."
+  },
+  {
+    "name": "Make",
+    "slug": null,
+    "url": "https://www.make.com",
+    "description": "Visual automation platform with AI integrations for building complex workflows without code.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 58,
+    "id": "make",
+    "summary": "Visual automation platform with AI integrations for building complex workflows without code. Offers a drag-and-drop builder with branching logic and error handling. More powerful than Zapier for complex scenarios.",
+    "features": [
+      "Visual workflow builder",
+      "1,800+ app integrations",
+      "Branching and error handling",
+      "HTTP/API module",
+      "AI-powered scenario building"
+    ],
+    "pricingDetails": "Free plan with 1,000 ops/mo. Core $9/mo. Pro $16/mo. Teams $29/mo."
+  },
+  {
+    "name": "Bardeen",
+    "slug": null,
+    "url": "https://www.bardeen.ai",
+    "description": "AI automation tool that scrapes data, automates repetitive tasks, and connects apps.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 38,
+    "id": "bardeen",
+    "summary": "AI automation tool that scrapes data, automates repetitive tasks, and connects apps via browser extension. Works directly in your browser for web-based workflows. Specializes in scraping and data entry automation.",
+    "features": [
+      "Browser-based automation",
+      "Web scraping without code",
+      "AI workflow suggestions",
+      "Chrome extension",
+      "CRM and app integrations"
+    ],
+    "pricingDetails": "Free plan available. Professional $10/mo. Business $15/user/mo."
+  },
+  {
+    "name": "Fireflies.ai",
+    "slug": null,
+    "url": "https://fireflies.ai",
+    "description": "AI meeting notetaker that transcribes, summarizes, and searches across all your meetings.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 52,
+    "id": "fireflies-ai",
+    "summary": "AI meeting notetaker that transcribes, summarizes, and searches across all your meetings. Integrates with major video conferencing platforms. Creates searchable knowledge base from conversations.",
+    "features": [
+      "Automatic meeting transcription",
+      "AI-generated summaries",
+      "Searchable meeting history",
+      "CRM integration",
+      "Custom topic tracking"
+    ],
+    "pricingDetails": "Free plan available. Pro $18/user/mo. Business $29/user/mo. Enterprise $39/user/mo."
+  },
+  {
+    "name": "Krisp",
+    "slug": "krisp",
+    "url": "https://krisp.ai",
+    "description": "AI noise cancellation app that removes background noise and provides meeting transcription.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 45,
+    "id": "krisp",
+    "summary": "AI noise cancellation app that removes background noise from calls and provides meeting transcription. Works with any conferencing app. Processes audio locally for privacy.",
+    "features": [
+      "AI noise cancellation",
+      "Background voice removal",
+      "Meeting transcription",
+      "Meeting summaries",
+      "Works with any app"
+    ],
+    "pricingDetails": "Free plan with 60 min/day. Pro $8/mo. Enterprise custom."
+  },
+  {
+    "name": "tl;dv",
+    "slug": null,
+    "url": "https://tldv.io",
+    "description": "AI meeting recorder for Google Meet and Zoom with timestamped transcripts and summaries.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 42,
+    "id": "tldv",
+    "summary": "AI meeting recorder for Google Meet, Zoom, and Teams with timestamped transcripts and summaries. Lets you clip and share key meeting moments. Integrates with CRM and project management tools.",
+    "features": [
+      "Meeting recording and transcription",
+      "AI summaries and action items",
+      "Timestamped highlights",
+      "CRM auto-sync",
+      "Multi-meeting intelligence"
+    ],
+    "pricingDetails": "Free plan available. Pro $25/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Photoroom",
+    "slug": "photoroom",
+    "url": "https://www.photoroom.com",
+    "description": "AI photo editor that removes backgrounds and creates professional product images instantly.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 55,
+    "id": "photoroom",
+    "summary": "AI photo editor specializing in background removal and professional product photography. Creates studio-quality product images instantly. Popular with e-commerce sellers and marketers.",
+    "features": [
+      "Instant background removal",
+      "AI background generation",
+      "Batch editing",
+      "Product photo templates",
+      "API for automation"
+    ],
+    "pricingDetails": "Free plan available. Pro $13/mo. Enterprise custom."
+  },
+  {
+    "name": "Remove.bg",
+    "slug": null,
+    "url": "https://www.remove.bg",
+    "description": "AI tool that removes image backgrounds automatically in seconds with one click.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 68,
+    "id": "remove-bg",
+    "summary": "AI tool that removes image backgrounds automatically in seconds with one click. Produces clean cutouts for any image type. Available as web tool, API, and desktop app.",
+    "features": [
+      "One-click background removal",
+      "High-resolution output",
+      "Batch processing",
+      "API integration",
+      "Photoshop and Figma plugins"
+    ],
+    "pricingDetails": "Free low-res previews. Pay-as-you-go from $0.90/image. Subscription from $9/mo."
+  },
+  {
+    "name": "Clipdrop",
+    "slug": null,
+    "url": "https://clipdrop.co",
+    "description": "AI-powered image editing suite for background removal, relighting, upscaling, and generation.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 48,
+    "id": "clipdrop",
+    "summary": "AI-powered image editing suite by Stability AI for background removal, relighting, upscaling, and generation. Offers multiple specialized AI tools in one platform. Fast and easy to use for quick edits.",
+    "features": [
+      "Background removal",
+      "AI image relighting",
+      "Image upscaling",
+      "Stable Diffusion integration",
+      "Text removal from images"
+    ],
+    "pricingDetails": "Free tier available. Pro $9/mo."
+  },
+  {
+    "name": "Wordtune",
+    "slug": null,
+    "url": "https://www.wordtune.com",
+    "description": "AI writing companion that rephrases sentences, adjusts tone, and improves clarity.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 48,
+    "id": "wordtune",
+    "summary": "AI writing companion that rephrases sentences, adjusts tone, and improves clarity. Helps rewrite content while preserving meaning. Offers summarization of long documents and YouTube videos.",
+    "features": [
+      "Sentence rewriting",
+      "Tone adjustment",
+      "Document summarization",
+      "YouTube video summarizer",
+      "Browser extension"
+    ],
+    "pricingDetails": "Free plan with 10 rewrites/day. Plus $10/mo. Unlimited $15/mo."
+  },
+  {
+    "name": "QuillBot",
+    "slug": null,
+    "url": "https://quillbot.com",
+    "description": "AI paraphrasing and summarizing tool with grammar checking and citation generation.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 62,
+    "id": "quillbot",
+    "summary": "AI paraphrasing and summarizing tool with grammar checking and citation generation. Offers multiple rewriting modes from formal to creative. Popular with students and academic writers.",
+    "features": [
+      "Paraphrasing with multiple modes",
+      "Grammar checker",
+      "Summarizer",
+      "Citation generator",
+      "Plagiarism checker"
+    ],
+    "pricingDetails": "Free basic plan. Premium $10/mo."
+  },
+  {
+    "name": "Ahrefs",
+    "slug": "ahrefs",
+    "url": "https://ahrefs.com",
+    "description": "SEO toolset with AI-powered content explorer, keyword research, and backlink analysis.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 80,
+    "id": "ahrefs",
+    "summary": "Comprehensive SEO toolset with AI-powered content explorer, keyword research, and the largest backlink database. Industry standard for competitive SEO analysis. Trusted by major brands and agencies.",
+    "features": [
+      "Largest backlink database",
+      "Keyword explorer",
+      "Site audit tool",
+      "Content explorer",
+      "Rank tracking"
+    ],
+    "pricingDetails": "Lite $129/mo. Standard $249/mo. Advanced $449/mo. Enterprise $14,990/yr."
+  },
+  {
+    "name": "Moz",
+    "slug": "moz",
+    "url": "https://moz.com",
+    "description": "SEO platform with AI-driven keyword research, site audits, and domain authority tracking.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.3,
+    "popularity": 65,
+    "id": "moz",
+    "summary": "SEO platform with AI-driven keyword research, site audits, and the original Domain Authority metric. Offers beginner-friendly interface with powerful features. Strong community and learning resources.",
+    "features": [
+      "Domain Authority metric",
+      "Keyword research",
+      "Site crawl and audit",
+      "Link analysis",
+      "SERP analysis"
+    ],
+    "pricingDetails": "Starter $49/mo. Standard $99/mo. Medium $179/mo. Large $299/mo."
+  },
+  {
+    "name": "Loom AI",
+    "slug": "loom",
+    "url": "https://www.loom.com",
+    "description": "Async video messaging platform with AI summaries, chapters, and auto-generated titles.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 62,
+    "id": "loom",
+    "summary": "Async video messaging platform with AI-powered summaries, chapters, and auto-generated titles. Record screen and camera to share quick updates. Part of Atlassian, integrated with Jira and Confluence.",
+    "features": [
+      "Screen and camera recording",
+      "AI video summaries",
+      "Auto-generated chapters",
+      "Viewer engagement analytics",
+      "Atlassian integration"
+    ],
+    "pricingDetails": "Free plan with 25 videos. Business $15/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Riverside",
+    "slug": null,
+    "url": "https://riverside.fm",
+    "description": "AI-powered recording studio for podcasts and video with local HD and transcription.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 48,
+    "id": "riverside",
+    "summary": "AI-powered recording studio for podcasts and video with local HD quality up to 4K. Records each participant locally to avoid quality loss. Includes AI transcription and clip generation.",
+    "features": [
+      "Local HD recording up to 4K",
+      "Separate audio/video tracks",
+      "AI transcription",
+      "Magic Clips AI editor",
+      "Live streaming support"
+    ],
+    "pricingDetails": "Free plan with 1 hour recording. Standard $15/mo. Pro $24/mo."
+  },
+  {
+    "name": "Opus Clip",
+    "slug": null,
+    "url": "https://www.opus.pro",
+    "description": "AI tool that turns long videos into viral short clips with automatic captions.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 52,
+    "id": "opus-clip",
+    "summary": "AI tool that turns long videos into viral short clips with automatic captions and virality scoring. Identifies the most engaging moments automatically. Optimized for TikTok, Reels, and Shorts.",
+    "features": [
+      "AI clip selection from long videos",
+      "Automatic captions",
+      "Virality score prediction",
+      "Multi-platform formatting",
+      "B-roll generation"
+    ],
+    "pricingDetails": "Free plan available. Starter $19/mo. Pro $49/mo."
+  },
+  {
+    "name": "Mistral AI",
+    "slug": null,
+    "url": "https://mistral.ai",
+    "description": "Open-weight AI models offering fast, efficient language understanding and generation.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 65,
+    "id": "mistral-ai",
+    "summary": "French AI company offering open-weight language models for fast, efficient text generation. Models range from small (7B) to large (Mixtral). Strong focus on European AI sovereignty and open-source.",
+    "features": [
+      "Open-weight models",
+      "Mixtral mixture-of-experts",
+      "Le Chat AI assistant",
+      "API platform",
+      "On-premise deployment"
+    ],
+    "pricingDetails": "Free Le Chat access. API usage-based pricing. Enterprise self-hosting available."
+  },
+  {
+    "name": "Cohere",
+    "slug": null,
+    "url": "https://cohere.com",
+    "description": "Enterprise AI platform for text generation, search, and classification at scale.",
+    "category": "Data",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 45,
+    "id": "cohere",
+    "summary": "Enterprise AI platform for text generation, semantic search, and classification at scale. Specializes in retrieval-augmented generation (RAG) for businesses. Offers private cloud deployment options.",
+    "features": [
+      "Enterprise text generation",
+      "Semantic search (Embed)",
+      "RAG capabilities",
+      "Classification models",
+      "Private cloud deployment"
+    ],
+    "pricingDetails": "Free trial available. Production usage-based pricing. Enterprise custom."
+  },
+  {
+    "name": "Ideogram",
+    "slug": null,
+    "url": "https://ideogram.ai",
+    "description": "AI image generator specializing in accurate text rendering within generated artwork.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 48,
+    "id": "ideogram",
+    "summary": "AI image generator specializing in accurate text rendering within generated artwork. One of the few models that reliably generates readable text in images. Also produces high-quality artistic images.",
+    "features": [
+      "Accurate text in images",
+      "Multiple style presets",
+      "High-resolution output",
+      "Magic Prompt enhancement",
+      "Remix and edit features"
+    ],
+    "pricingDetails": "Free tier with daily credits. Basic $8/mo. Plus $20/mo. Pro $60/mo."
+  },
+  {
+    "name": "Krea AI",
+    "slug": null,
+    "url": "https://www.krea.ai",
+    "description": "Real-time AI image generation and enhancement tool with creative upscaling features.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 35,
+    "id": "krea-ai",
+    "summary": "Real-time AI image generation and enhancement tool with creative upscaling features. Generates images as you draw or type with instant preview. Offers unique real-time canvas for interactive creation.",
+    "features": [
+      "Real-time image generation",
+      "AI upscaling and enhancement",
+      "Interactive canvas",
+      "Logo and pattern tools",
+      "Video generation"
+    ],
+    "pricingDetails": "Free tier available. Pro $30/mo. Enterprise custom."
+  },
+  {
+    "name": "Framer AI",
+    "slug": "framer",
+    "url": "https://www.framer.com",
+    "description": "AI website builder that generates and publishes responsive sites from text descriptions.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 55,
+    "id": "framer",
+    "summary": "AI website builder that generates and publishes responsive sites from text descriptions. Creates production-ready websites with animations and interactions. No coding required for professional results.",
+    "features": [
+      "AI site generation from text",
+      "Responsive design",
+      "CMS and blog support",
+      "Custom animations",
+      "Built-in hosting and domains"
+    ],
+    "pricingDetails": "Free plan available. Mini $5/mo. Basic $15/mo. Pro $30/mo."
+  },
+  {
+    "name": "Wix AI",
+    "slug": "wix",
+    "url": "https://www.wix.com/ai-website-builder",
+    "description": "AI website builder creating fully designed, customizable sites from a brief description.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 68,
+    "id": "wix-ai",
+    "summary": "AI website builder creating fully designed, customizable sites from a brief description. Part of the Wix platform serving 250M+ users. Includes AI text and image generation tools.",
+    "features": [
+      "AI site generation",
+      "Drag-and-drop editor",
+      "E-commerce integration",
+      "AI text generator",
+      "SEO and marketing tools"
+    ],
+    "pricingDetails": "Free plan available. Light $17/mo. Core $29/mo. Business $36/mo."
+  },
+  {
+    "name": "Vercel AI SDK",
+    "slug": "vercel",
+    "url": "https://sdk.vercel.ai",
+    "description": "Open-source TypeScript toolkit for building AI-powered applications and chatbots.",
+    "category": "Coding",
+    "pricing": "Free",
+    "rating": 4.4,
+    "popularity": 42,
+    "id": "vercel-ai-sdk",
+    "summary": "Open-source TypeScript toolkit for building AI-powered applications and chatbots. Provides streaming, tool calling, and model-agnostic abstractions. The standard for building AI apps in the JavaScript ecosystem.",
+    "features": [
+      "Model-agnostic AI abstractions",
+      "Streaming response support",
+      "Tool calling framework",
+      "React and Next.js hooks",
+      "Multiple provider support"
+    ],
+    "pricingDetails": "Free and open-source. Vercel hosting plans start at $20/mo."
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "slug": "amazonaws",
+    "url": "https://aws.amazon.com/codewhisperer",
+    "description": "Amazon’s AI code companion for real-time suggestions and security scanning.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 55,
+    "id": "amazon-codewhisperer",
+    "summary": "Amazon's AI code companion (now Amazon Q Developer) for real-time code suggestions and security scanning. Optimized for AWS development. Scans code for vulnerabilities and suggests fixes.",
+    "features": [
+      "Real-time code suggestions",
+      "Security vulnerability scanning",
+      "AWS service integration",
+      "15+ language support",
+      "Reference tracking for open-source"
+    ],
+    "pricingDetails": "Free individual tier. Professional $19/user/mo."
+  },
+  {
+    "name": "Podcast AI by Adobe",
+    "slug": "adobe",
+    "url": "https://podcast.adobe.com",
+    "description": "AI-powered audio recording and editing tool with noise removal and transcription.",
+    "category": "Audio",
+    "pricing": "Free",
+    "rating": 4.3,
+    "popularity": 45,
+    "id": "adobe-podcast",
+    "summary": "AI-powered audio recording and editing tool by Adobe with studio-quality noise removal and transcription. Enhance Audio feature makes any recording sound professional. Free to use in beta.",
+    "features": [
+      "AI noise removal (Enhance Speech)",
+      "Audio transcription",
+      "Studio-quality processing",
+      "Mic check tool",
+      "Browser-based recording"
+    ],
+    "pricingDetails": "Free during beta. Future pricing TBD."
+  },
+  {
+    "name": "Speechify",
+    "slug": null,
+    "url": "https://speechify.com",
+    "description": "AI text-to-speech reader that converts documents, articles, and PDFs into natural audio.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 52,
+    "id": "speechify",
+    "summary": "AI text-to-speech reader that converts documents, articles, and PDFs into natural-sounding audio. Available as browser extension, mobile app, and desktop app. Popular for accessibility and productivity.",
+    "features": [
+      "Natural text-to-speech",
+      "PDF and document reading",
+      "Browser extension",
+      "Speed control up to 4.5x",
+      "50+ voice options"
+    ],
+    "pricingDetails": "Free basic plan. Premium $139/yr. Audiobook plan available."
+  },
+  {
+    "name": "Resemble AI",
+    "slug": null,
+    "url": "https://www.resemble.ai",
+    "description": "AI voice cloning platform for creating custom synthetic voices for any application.",
+    "category": "Audio",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 32,
+    "id": "resemble-ai",
+    "summary": "AI voice cloning platform for creating custom synthetic voices for any application. Offers real-time voice conversion and speech-to-speech. Used for gaming, media, and enterprise applications.",
+    "features": [
+      "Custom voice cloning",
+      "Real-time voice conversion",
+      "Speech-to-speech synthesis",
+      "Emotion control",
+      "API and SDK access"
+    ],
+    "pricingDetails": "Pay-as-you-go from $0.006/sec. Enterprise plans available."
+  },
+  {
+    "name": "Descript Podcast",
+    "slug": "descript",
+    "url": "https://www.descript.com/podcasting",
+    "description": "AI podcast editor with text-based editing, filler word removal, and studio sound.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 50,
+    "id": "descript-podcast",
+    "summary": "AI podcast editor with text-based editing, automatic transcription, and studio sound enhancement. Edit audio by editing the transcript. Removes filler words and generates show notes automatically.",
+    "features": [
+      "Text-based audio editing",
+      "Filler word removal",
+      "Studio sound enhancement",
+      "Automatic show notes",
+      "Multi-track editing"
+    ],
+    "pricingDetails": "Free plan available. Hobbyist $24/mo. Pro $33/mo."
+  },
+  {
+    "name": "Pictory",
+    "slug": null,
+    "url": "https://pictory.ai",
+    "description": "AI video creator that turns blog posts and scripts into short branded videos.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 40,
+    "id": "pictory",
+    "summary": "AI video creator that turns blog posts and scripts into short branded videos automatically. Extracts key content and pairs with stock footage. Ideal for content repurposing and social media.",
+    "features": [
+      "Blog-to-video conversion",
+      "Script-to-video creation",
+      "AI voiceover",
+      "Auto-captioning",
+      "Brand customization"
+    ],
+    "pricingDetails": "Starter $19/mo. Professional $39/mo. Teams $99/mo."
+  },
+  {
+    "name": "InVideo AI",
+    "slug": null,
+    "url": "https://invideo.io",
+    "description": "AI video maker that generates publish-ready videos from text prompts in minutes.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 48,
+    "id": "invideo-ai",
+    "summary": "AI video maker that generates publish-ready videos from text prompts in minutes. Creates complete videos with footage, music, and voiceover. Supports 50+ languages for global content creation.",
+    "features": [
+      "Text-to-video generation",
+      "AI voiceover in 50+ languages",
+      "Stock footage library",
+      "Brand preset templates",
+      "Collaborative editing"
+    ],
+    "pricingDetails": "Free plan available. Plus $25/mo. Max $60/mo."
+  },
+  {
+    "name": "Captions",
+    "slug": null,
+    "url": "https://www.captions.ai",
+    "description": "AI-powered video editor with auto-captions, eye contact correction, and AI avatars.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 50,
+    "id": "captions-ai",
+    "summary": "AI-powered video editor with auto-captions, eye contact correction, and AI avatars. Designed for creators making content for social media. Features AI-powered editing tools for polished output.",
+    "features": [
+      "Automatic captioning",
+      "AI eye contact correction",
+      "AI avatar creation",
+      "Background removal",
+      "Video translation"
+    ],
+    "pricingDetails": "Free plan available. Pro $10/mo. Business $25/mo."
+  },
+  {
+    "name": "Lately AI",
+    "slug": null,
+    "url": "https://www.lately.ai",
+    "description": "AI social media tool that repurposes long-form content into optimized social posts.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 28,
+    "id": "lately-ai",
+    "summary": "AI social media tool that repurposes long-form content into dozens of optimized social posts. Learns your brand voice from historical performance data. Designed for enterprise social media management.",
+    "features": [
+      "Long-form to social repurposing",
+      "Brand voice learning",
+      "Performance-based optimization",
+      "Multi-channel publishing",
+      "Analytics dashboard"
+    ],
+    "pricingDetails": "Starter $49/mo. Pro $119/mo. Enterprise custom."
+  },
+  {
+    "name": "Predis.ai",
+    "slug": null,
+    "url": "https://predis.ai",
+    "description": "AI social media content generator creating posts, carousels, and videos from text.",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 30,
+    "id": "predis-ai",
+    "summary": "AI social media content generator creating posts, carousels, and short videos from text input. Offers complete social media management with scheduling. Generates platform-specific content automatically.",
+    "features": [
+      "AI post generation",
+      "Carousel and video creation",
+      "Content scheduling",
+      "Competitor analysis",
+      "Brand customization"
+    ],
+    "pricingDetails": "Free plan available. Starter $32/mo. Growth $59/mo."
+  },
+  {
+    "name": "AdCreative.ai",
+    "slug": null,
+    "url": "https://www.adcreative.ai",
+    "description": "AI ad creative generator producing high-converting banners and social ad designs.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.3,
+    "popularity": 42,
+    "id": "adcreative-ai",
+    "summary": "AI ad creative generator producing high-converting banners and social ad designs. Uses performance data to predict ad effectiveness. Generates hundreds of ad variations in minutes.",
+    "features": [
+      "AI ad creative generation",
+      "Conversion score prediction",
+      "100+ ad format templates",
+      "Brand consistency controls",
+      "Performance analytics"
+    ],
+    "pricingDetails": "Starter $29/mo. Professional $189/mo. Ultimate $449/mo."
+  },
+  {
+    "name": "Seventh Sense",
+    "slug": null,
+    "url": "https://www.theseventhsense.com",
+    "description": "AI email delivery optimization for HubSpot and Marketo using send-time personalization.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 22,
+    "id": "seventh-sense",
+    "summary": "AI email delivery optimization for HubSpot and Marketo using personalized send-time algorithms. Determines the optimal time to send emails to each individual contact. Improves open and click rates.",
+    "features": [
+      "Send-time personalization",
+      "HubSpot integration",
+      "Marketo integration",
+      "Engagement analytics",
+      "Throttled email delivery"
+    ],
+    "pricingDetails": "HubSpot plans from $80/mo. Marketo plans from $450/mo."
+  },
+  {
+    "name": "Brandwatch",
+    "slug": null,
+    "url": "https://www.brandwatch.com",
+    "description": "AI-powered social listening and consumer intelligence platform for brand monitoring.",
+    "category": "Marketing",
+    "pricing": "Enterprise",
+    "rating": 4.4,
+    "popularity": 52,
+    "id": "brandwatch",
+    "summary": "AI-powered social listening and consumer intelligence platform for brand monitoring at scale. Analyzes online conversations across social media, news, and forums. Part of Cision.",
+    "features": [
+      "Social listening",
+      "Sentiment analysis",
+      "Trend detection",
+      "Influencer identification",
+      "Crisis management alerts"
+    ],
+    "pricingDetails": "Enterprise pricing on request. Typically starts at $800+/mo."
+  },
+  {
+    "name": "Tidio AI",
+    "slug": null,
+    "url": "https://www.tidio.com",
+    "description": "AI chatbot and live chat platform for e-commerce customer support automation.",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 42,
+    "id": "tidio",
+    "summary": "AI chatbot and live chat platform for e-commerce customer support automation. Lyro AI agent resolves up to 70% of customer queries automatically. Easy setup with Shopify and WordPress.",
+    "features": [
+      "Lyro AI chatbot",
+      "Live chat widget",
+      "Shopify and WordPress integration",
+      "Visitor analytics",
+      "Automated ticket routing"
+    ],
+    "pricingDetails": "Free plan available. Starter $29/mo. Growth $59/mo. Tidio+ $749/mo."
+  },
+  {
+    "name": "Intercom Fin",
+    "slug": "intercom",
+    "url": "https://www.intercom.com/fin",
+    "description": "AI customer service agent that resolves support queries using your knowledge base.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 62,
+    "id": "intercom-fin",
+    "summary": "AI customer service agent by Intercom that resolves support queries using your knowledge base. Provides accurate, cited answers and handles complex conversations. Seamlessly escalates to human agents.",
+    "features": [
+      "AI-powered query resolution",
+      "Knowledge base integration",
+      "Multi-language support",
+      "Human agent handoff",
+      "Conversation analytics"
+    ],
+    "pricingDetails": "Fin AI agent $0.99/resolution. Intercom plans from $39/seat/mo."
+  },
+  {
+    "name": "Rows AI",
+    "slug": null,
+    "url": "https://rows.com",
+    "description": "AI-powered spreadsheet that analyzes data, generates formulas, and creates summaries.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 25,
+    "id": "rows-ai",
+    "summary": "AI-powered spreadsheet that analyzes data, generates formulas, and creates summaries. Chat with your data using natural language. Combines spreadsheet functionality with AI intelligence.",
+    "features": [
+      "Natural language data queries",
+      "AI formula generation",
+      "Data summarization",
+      "Built-in data integrations",
+      "Shareable dashboards"
+    ],
+    "pricingDetails": "Free plan available. Pro $9/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Akkio",
+    "slug": null,
+    "url": "https://www.akkio.com",
+    "description": "No-code AI analytics platform for predictive modeling, forecasting, and data chat.",
+    "category": "Data",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 22,
+    "id": "akkio",
+    "summary": "No-code AI analytics platform for predictive modeling, forecasting, and conversational data analysis. Designed for agencies and SMBs. Deploy ML models without technical expertise.",
+    "features": [
+      "No-code predictive models",
+      "Data chat interface",
+      "Automated forecasting",
+      "Custom AI reports",
+      "White-label options"
+    ],
+    "pricingDetails": "Starter $49/mo. Professional $99/mo. Enterprise custom."
+  },
+  {
+    "name": "Databricks AI",
+    "slug": null,
+    "url": "https://www.databricks.com",
+    "description": "Unified data and AI platform for building and deploying machine learning at scale.",
+    "category": "Data",
+    "pricing": "Enterprise",
+    "rating": 4.6,
+    "popularity": 72,
+    "id": "databricks",
+    "summary": "Unified data and AI platform for building, training, and deploying machine learning models at scale. Combines data lakehouse architecture with MLOps. Industry leader for enterprise data and AI.",
+    "features": [
+      "Data lakehouse architecture",
+      "MLflow model management",
+      "Unity Catalog governance",
+      "Mosaic AI for GenAI",
+      "Serverless compute"
+    ],
+    "pricingDetails": "Pay-as-you-go pricing. Enterprise agreements available. Free community edition."
+  },
+  {
+    "name": "Tableau AI",
+    "slug": "tableau",
+    "url": "https://www.tableau.com",
+    "description": "AI-powered data visualization platform with natural language queries and smart analytics.",
+    "category": "Data",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 75,
+    "id": "tableau",
+    "summary": "AI-powered data visualization platform by Salesforce with natural language queries and smart analytics. Industry standard for business intelligence dashboards. Now includes Tableau Pulse AI insights.",
+    "features": [
+      "Drag-and-drop visualizations",
+      "Natural language queries",
+      "Tableau Pulse AI insights",
+      "Real-time data connections",
+      "Mobile dashboards"
+    ],
+    "pricingDetails": "Viewer $15/user/mo. Explorer $42/user/mo. Creator $75/user/mo."
+  },
+  {
+    "name": "ThoughtSpot",
+    "slug": null,
+    "url": "https://www.thoughtspot.com",
+    "description": "AI-driven analytics platform enabling natural language search across your business data.",
+    "category": "Data",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 40,
+    "id": "thoughtspot",
+    "summary": "AI-driven analytics platform enabling natural language search across your business data. Delivers instant insights through a Google-like search interface. ThoughtSpot Sage adds generative AI capabilities.",
+    "features": [
+      "Natural language search",
+      "AI-generated insights",
+      "SpotIQ automated analysis",
+      "ThoughtSpot Sage GenAI",
+      "Embedded analytics"
+    ],
+    "pricingDetails": "Essentials from $1,250/mo. Pro and Enterprise custom pricing."
+  },
+  {
+    "name": "Polymer",
+    "slug": null,
+    "url": "https://www.polymersearch.com",
+    "description": "AI data exploration tool that turns spreadsheets into interactive dashboards automatically.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 20,
+    "id": "polymer",
+    "summary": "AI data exploration tool that turns spreadsheets into interactive dashboards and presentations automatically. No SQL or coding needed. Creates visualizations from uploaded data files.",
+    "features": [
+      "Auto-generated dashboards",
+      "Spreadsheet to visualization",
+      "AI data insights",
+      "Shareable presentations",
+      "Google Sheets integration"
+    ],
+    "pricingDetails": "Free plan available. Starter $10/mo. Pro $20/mo. Enterprise custom."
+  },
+  {
+    "name": "Hex",
+    "slug": null,
+    "url": "https://hex.tech",
+    "description": "Collaborative data workspace with AI-assisted SQL, Python, and visualization tools.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 38,
+    "id": "hex",
+    "summary": "Collaborative data workspace with AI-assisted SQL, Python, and visualization tools. Combines notebook-style analysis with AI code generation. Used by data teams for analytics and reporting.",
+    "features": [
+      "AI-assisted SQL and Python",
+      "Collaborative notebooks",
+      "Interactive visualizations",
+      "Scheduled reports",
+      "Version control"
+    ],
+    "pricingDetails": "Free community plan. Professional $25/user/mo. Team $50/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Pecan AI",
+    "slug": null,
+    "url": "https://www.pecan.ai",
+    "description": "Predictive analytics platform using AI to forecast business outcomes from raw data.",
+    "category": "Data",
+    "pricing": "Enterprise",
+    "rating": 4.2,
+    "popularity": 22,
+    "id": "pecan-ai",
+    "summary": "Predictive analytics platform using AI to forecast business outcomes from raw data. Automates the entire ML pipeline from data prep to prediction. Focused on marketing and revenue forecasting.",
+    "features": [
+      "Automated predictive modeling",
+      "Revenue forecasting",
+      "Customer churn prediction",
+      "Marketing mix modeling",
+      "SQL-based interface"
+    ],
+    "pricingDetails": "Enterprise pricing on request. Custom plans based on data volume."
+  },
+  {
+    "name": "Textio",
+    "slug": null,
+    "url": "https://textio.com",
+    "description": "AI writing platform that optimizes job postings and business communications for inclusion.",
+    "category": "Writing",
+    "pricing": "Enterprise",
+    "rating": 4.2,
+    "popularity": 32,
+    "id": "textio",
+    "summary": "AI writing platform that optimizes job postings and business communications for inclusion and effectiveness. Identifies biased language and suggests alternatives. Used by HR and recruiting teams.",
+    "features": [
+      "Bias detection in writing",
+      "Inclusive language suggestions",
+      "Job posting optimization",
+      "Performance review guidance",
+      "Tone and impact scoring"
+    ],
+    "pricingDetails": "Enterprise pricing on request. Per-seat licensing."
+  },
+  {
+    "name": "Kickresume",
+    "slug": null,
+    "url": "https://www.kickresume.com",
+    "description": "AI resume and cover letter builder with professional templates and content suggestions.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 35,
+    "id": "kickresume",
+    "summary": "AI resume and cover letter builder with professional templates and AI-powered content suggestions. Creates ATS-friendly resumes with one click. Includes website builder for online portfolios.",
+    "features": [
+      "AI resume writer",
+      "35+ professional templates",
+      "ATS optimization",
+      "Cover letter generator",
+      "Personal website builder"
+    ],
+    "pricingDetails": "Free plan available. Premium $19/mo. Lifetime $70 one-time."
+  },
+  {
+    "name": "Teal",
+    "slug": null,
+    "url": "https://www.tealhq.com",
+    "description": "AI-powered job search platform with resume building, tracking, and matching tools.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 32,
+    "id": "teal",
+    "summary": "AI-powered job search platform with resume building, application tracking, and job matching. Analyzes job descriptions to tailor your resume. Centralizes the entire job search workflow.",
+    "features": [
+      "AI resume builder",
+      "Job application tracker",
+      "Job description analysis",
+      "LinkedIn profile review",
+      "Resume match scoring"
+    ],
+    "pricingDetails": "Free plan available. Pro $9/week or $44/mo."
+  },
+  {
+    "name": "Casetext (CoCounsel)",
+    "slug": null,
+    "url": "https://casetext.com",
+    "description": "AI legal research assistant that reviews documents, finds precedents, and drafts memos.",
+    "category": "Productivity",
+    "pricing": "Enterprise",
+    "rating": 4.4,
+    "popularity": 38,
+    "id": "casetext-cocounsel",
+    "summary": "AI legal research assistant by Thomson Reuters that reviews documents, finds precedents, and drafts memos. CoCounsel AI handles complex legal research tasks. Trusted by thousands of law firms.",
+    "features": [
+      "Legal document review",
+      "Case law research",
+      "Contract analysis",
+      "Memo drafting",
+      "Deposition preparation"
+    ],
+    "pricingDetails": "Professional plans from $250/user/mo. Enterprise custom pricing."
+  },
+  {
+    "name": "Harvey AI",
+    "slug": null,
+    "url": "https://www.harvey.ai",
+    "description": "AI platform for law firms automating contract analysis, research, and legal drafting.",
+    "category": "Productivity",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 30,
+    "id": "harvey-ai",
+    "summary": "AI platform for elite law firms automating contract analysis, research, and legal drafting. Built specifically for legal work with security and compliance. Used by top global law firms.",
+    "features": [
+      "Legal research automation",
+      "Contract analysis",
+      "Document drafting",
+      "Regulatory compliance",
+      "Firm-specific training"
+    ],
+    "pricingDetails": "Enterprise-only pricing. Custom per-firm agreements."
+  },
+  {
+    "name": "Eightfold AI",
+    "slug": null,
+    "url": "https://eightfold.ai",
+    "description": "AI talent intelligence platform for recruiting, retention, and workforce planning.",
+    "category": "Productivity",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 28,
+    "id": "eightfold-ai",
+    "summary": "AI talent intelligence platform for recruiting, retention, and workforce planning. Uses deep learning to match candidates with roles. Serves Fortune 500 companies for talent management.",
+    "features": [
+      "AI talent matching",
+      "Skills-based recruiting",
+      "Internal mobility platform",
+      "Workforce planning",
+      "Diversity intelligence"
+    ],
+    "pricingDetails": "Enterprise pricing on request. Module-based licensing."
+  },
+  {
+    "name": "Lattice AI",
+    "slug": null,
+    "url": "https://lattice.com",
+    "description": "AI-enhanced people management platform for performance reviews and employee engagement.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 32,
+    "id": "lattice",
+    "summary": "AI-enhanced people management platform for performance reviews, employee engagement, and compensation planning. Helps managers write reviews and identify trends. Used by 5,000+ companies.",
+    "features": [
+      "AI performance review drafting",
+      "Employee engagement surveys",
+      "Goal and OKR tracking",
+      "Compensation management",
+      "People analytics"
+    ],
+    "pricingDetails": "Starts at $11/person/mo. Add-on modules available. Enterprise custom."
+  },
+  {
+    "name": "Taskade AI",
+    "slug": "taskade",
+    "url": "https://www.taskade.com",
+    "description": "AI-powered workspace for task management, mind maps, and team collaboration with agents.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 35,
+    "id": "taskade",
+    "summary": "AI-powered workspace for task management, mind maps, and team collaboration with AI agents. Build custom AI agents to automate workflows. Combines project management with generative AI.",
+    "features": [
+      "AI task generation",
+      "Custom AI agents",
+      "Mind maps and flowcharts",
+      "Real-time collaboration",
+      "Workflow automation"
+    ],
+    "pricingDetails": "Free plan available. Pro $8/user/mo. Business $16/user/mo."
+  },
+  {
+    "name": "ClickUp AI",
+    "slug": "clickup",
+    "url": "https://clickup.com/ai",
+    "description": "AI project management assistant that writes tasks, summarizes docs, and generates subtasks.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "popularity": 58,
+    "id": "clickup-ai",
+    "summary": "AI assistant integrated into ClickUp project management for writing tasks, summarizing docs, and generating subtasks. Automates routine project management work. Available across all ClickUp features.",
+    "features": [
+      "AI task summarization",
+      "Auto-generated subtasks",
+      "Document writing assistant",
+      "Standup report generation",
+      "Action item extraction"
+    ],
+    "pricingDetails": "ClickUp AI add-on $7/member/mo on top of ClickUp plans from $7/user/mo."
+  },
+  {
+    "name": "Superhuman AI",
+    "slug": "superhuman",
+    "url": "https://superhuman.com",
+    "description": "AI-powered email client with instant replies, summaries, and smart scheduling.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 48,
+    "id": "superhuman",
+    "summary": "AI-powered email client designed for speed with instant replies, summaries, and smart scheduling. Processes email 2x faster than competitors. Known for keyboard shortcuts and polished design.",
+    "features": [
+      "AI-powered instant replies",
+      "Email summaries",
+      "Split inbox",
+      "Read status tracking",
+      "Keyboard-first design"
+    ],
+    "pricingDetails": "Starter $25/user/mo. Business $35/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Granola",
+    "slug": null,
+    "url": "https://www.granola.so",
+    "description": "AI notepad for meetings that combines your notes with automatic transcript enrichment.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 25,
+    "id": "granola",
+    "summary": "AI notepad for meetings that combines your personal notes with automatic transcript enrichment. Enhances your rough notes into comprehensive meeting records. Lightweight alternative to full meeting recorders.",
+    "features": [
+      "AI note enrichment",
+      "Automatic transcript integration",
+      "Customizable note templates",
+      "Meeting history",
+      "Mac-native app"
+    ],
+    "pricingDetails": "Free plan available. Pro $10/mo. Business $19/user/mo."
+  },
+  {
+    "name": "Scribe",
+    "slug": null,
+    "url": "https://scribehow.com",
+    "description": "AI tool that auto-generates step-by-step guides and SOPs from screen recordings.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 40,
+    "id": "scribe",
+    "summary": "AI tool that auto-generates step-by-step guides and SOPs from screen recordings. Captures clicks and keystrokes to create documented processes. Perfect for training and knowledge documentation.",
+    "features": [
+      "Auto-generated step-by-step guides",
+      "Screenshot capture",
+      "Customizable instructions",
+      "Team sharing and embedding",
+      "Enterprise knowledge base"
+    ],
+    "pricingDetails": "Free basic plan. Pro $29/user/mo. Enterprise custom."
+  },
+  {
+    "name": "Napkin AI",
+    "slug": null,
+    "url": "https://www.napkin.ai",
+    "description": "AI tool that transforms text content into professional diagrams and visual explanations.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 30,
+    "id": "napkin-ai",
+    "summary": "AI tool that transforms text content into professional diagrams, charts, and visual explanations. Paste any text and get instant visual representations. Great for turning ideas into shareable graphics.",
+    "features": [
+      "Text-to-diagram generation",
+      "Multiple visual styles",
+      "Chart and flowchart creation",
+      "Export to image formats",
+      "Edit and customize visuals"
+    ],
+    "pricingDetails": "Free plan available. Pro plan pricing TBD."
+  },
+  {
+    "name": "Looka",
+    "slug": null,
+    "url": "https://looka.com",
+    "description": "AI logo maker and brand kit generator creating professional designs in minutes.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 40,
+    "id": "looka",
+    "summary": "AI logo maker and brand kit generator creating professional designs in minutes. Generates hundreds of logo options based on preferences. Includes full brand kit with business card and social templates.",
+    "features": [
+      "AI logo generation",
+      "Brand kit creation",
+      "Business card designs",
+      "Social media templates",
+      "SVG and vector file export"
+    ],
+    "pricingDetails": "Free to design. Basic Logo $20 one-time. Brand Kit $96/yr."
+  },
+  {
+    "name": "Designify",
+    "slug": null,
+    "url": "https://www.designify.com",
+    "description": "AI photo editor that auto-enhances product images with backgrounds and shadow effects.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 25,
+    "id": "designify",
+    "summary": "AI photo editor that auto-enhances product images with backgrounds, shadows, and effects. Batch process product photos for e-commerce. Creates professional-looking images from basic smartphone photos.",
+    "features": [
+      "AI background replacement",
+      "Shadow and reflection effects",
+      "Batch processing",
+      "E-commerce optimization",
+      "API for automation"
+    ],
+    "pricingDetails": "Free plan available. Pro $39/mo. Enterprise custom."
+  },
+  {
+    "name": "Veed.io",
+    "slug": null,
+    "url": "https://www.veed.io",
+    "description": "AI online video editor with auto-subtitles, background removal, and text-to-video.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 52,
+    "id": "veed-io",
+    "summary": "AI online video editor with auto-subtitles, background removal, and text-to-video features. Browser-based with no downloads required. Popular for social media content creation.",
+    "features": [
+      "Auto subtitle generation",
+      "Background removal",
+      "Text-to-video",
+      "Screen recording",
+      "AI avatars"
+    ],
+    "pricingDetails": "Free plan available. Basic $18/mo. Pro $30/mo. Business $59/mo."
+  },
+  {
+    "name": "Colossyan",
+    "slug": null,
+    "url": "https://www.colossyan.com",
+    "description": "AI video creator with diverse avatars for corporate training and internal communications.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.2,
+    "popularity": 30,
+    "id": "colossyan",
+    "summary": "AI video creator with diverse avatars optimized for corporate training and internal communications. Offers translation and localization features. Enterprise-focused with compliance and security features.",
+    "features": [
+      "Diverse AI presenter avatars",
+      "One-click translation",
+      "Learning scenario branching",
+      "PPT to video conversion",
+      "Brand customization"
+    ],
+    "pricingDetails": "Starter $35/mo. Pro $120/mo. Enterprise custom."
+  },
+  {
+    "name": "Jasper Art",
+    "slug": "jasper",
+    "url": "https://www.jasper.ai/art",
+    "description": "AI art generator within Jasper creating marketing visuals from text descriptions.",
+    "category": "Design",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 42,
+    "id": "jasper-art",
+    "summary": "AI art generator within the Jasper platform for creating marketing visuals from text descriptions. Optimized for brand-consistent marketing imagery. Integrated with Jasper's content creation suite.",
+    "features": [
+      "Text-to-image generation",
+      "Marketing-focused styles",
+      "Brand style consistency",
+      "High-resolution output",
+      "Jasper platform integration"
+    ],
+    "pricingDetails": "Included in Jasper plans. Creator $49/mo. Pro $69/mo."
+  },
+  {
+    "name": "Browse AI",
+    "slug": null,
+    "url": "https://www.browse.ai",
+    "description": "AI web scraping tool that extracts and monitors data from any website without code.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 32,
+    "id": "browse-ai",
+    "summary": "AI web scraping tool that extracts and monitors data from any website without code. Set up scrapers by pointing and clicking. Automates data collection with scheduled monitoring.",
+    "features": [
+      "No-code web scraping",
+      "Scheduled data extraction",
+      "Change monitoring",
+      "Spreadsheet export",
+      "API access"
+    ],
+    "pricingDetails": "Free plan with 50 credits/mo. Starter $49/mo. Professional $99/mo."
+  },
+  {
+    "name": "ChatPDF",
+    "slug": null,
+    "url": "https://www.chatpdf.com",
+    "description": "AI tool that lets you chat with any PDF document to extract answers and summaries.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 42,
+    "id": "chatpdf",
+    "summary": "AI tool that lets you chat with any PDF document to extract answers and summaries. Upload research papers, manuals, or reports and ask questions. Simple, focused interface for document Q&A.",
+    "features": [
+      "PDF document chat",
+      "Multi-document support",
+      "Citation with page numbers",
+      "Summary generation",
+      "Multi-language support"
+    ],
+    "pricingDetails": "Free plan with 2 PDFs/day. Plus $5/mo."
+  },
+  {
+    "name": "Consensus",
+    "slug": null,
+    "url": "https://consensus.app",
+    "description": "AI-powered academic search engine that finds and summarizes scientific research papers.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 32,
+    "id": "consensus",
+    "summary": "AI-powered academic search engine that finds and summarizes scientific research papers. Provides evidence-based answers with links to peer-reviewed sources. Designed for researchers and students.",
+    "features": [
+      "AI-powered paper search",
+      "Research synthesis",
+      "Citation and source links",
+      "Copilot for research queries",
+      "Study snapshot summaries"
+    ],
+    "pricingDetails": "Free plan available. Premium $10/mo. Enterprise for institutions."
+  },
+  {
+    "name": "Elicit",
+    "slug": null,
+    "url": "https://elicit.com",
+    "description": "AI research assistant that finds relevant papers, extracts claims, and synthesizes findings.",
+    "category": "Data",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 28,
+    "id": "elicit",
+    "summary": "AI research assistant that finds relevant papers, extracts claims, and synthesizes findings. Automates systematic literature review workflows. Helps researchers save hours on evidence gathering.",
+    "features": [
+      "Automated paper discovery",
+      "Data extraction from papers",
+      "Research synthesis",
+      "Concept and claim mapping",
+      "Custom column extraction"
+    ],
+    "pricingDetails": "Free plan with 5,000 credits. Plus $10/mo. Teams available."
+  },
+  {
+    "name": "SlidesAI",
+    "slug": null,
+    "url": "https://www.slidesai.io",
+    "description": "AI Google Slides add-on that generates presentation slides from text input instantly.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.1,
+    "popularity": 28,
+    "id": "slidesai",
+    "summary": "AI Google Slides add-on that generates presentation slides from text input instantly. Creates themed, formatted slides from pasted text or topics. Simple tool for quick presentations.",
+    "features": [
+      "Text-to-slides generation",
+      "Multiple presentation themes",
+      "Google Slides integration",
+      "Image suggestions",
+      "Multi-language support"
+    ],
+    "pricingDetails": "Free plan with 3 presentations/mo. Pro $10/mo."
+  },
+  {
+    "name": "NotebookLM",
+    "slug": "google",
+    "url": "https://notebooklm.google.com",
+    "description": "Google’s AI research assistant that summarizes documents and generates audio overviews from your sources.",
+    "category": "Productivity",
+    "pricing": "Free",
+    "rating": 4.5,
+    "popularity": 72,
+    "id": "notebooklm",
+    "summary": "Google's AI research assistant that grounds responses in your uploaded documents. Generates Audio Overviews (podcast-style discussions) from your sources. Ideal for studying, research, and content synthesis.",
+    "features": [
+      "Document-grounded AI chat",
+      "Audio Overview generation",
+      "Multi-source synthesis",
+      "Citation and source linking",
+      "Notebook organization"
+    ],
+    "pricingDetails": "Free to use. NotebookLM Plus for enterprises (pricing TBD)."
+  },
+  {
+    "name": "Google Vids",
+    "slug": "google",
+    "url": "https://workspace.google.com/products/vids",
+    "description": "Google Workspace AI video creator for presentations, training videos, and team communications.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 45,
+    "id": "google-vids",
+    "summary": "Google Workspace AI video creator for presentations, training videos, and team communications. Generates video drafts from prompts with stock media. Integrated into Google Workspace ecosystem.",
+    "features": [
+      "AI video draft generation",
+      "Text-to-speech narration",
+      "Google Workspace integration",
+      "Stock media library",
+      "Collaborative editing"
+    ],
+    "pricingDetails": "Included in Gemini for Workspace plans from $14/user/mo."
+  },
+  {
+    "name": "Microsoft Copilot",
+    "slug": "microsoft",
+    "url": "https://copilot.microsoft.com",
+    "description": "Microsoft’s AI assistant integrated across Windows, Edge, and Microsoft 365 for productivity and creativity.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 90,
+    "id": "microsoft-copilot",
+    "summary": "Microsoft's AI assistant integrated across Windows, Edge, Office 365, and Azure. Powered by GPT-4 with access to web search and Microsoft Graph. The most widely deployed enterprise AI assistant.",
+    "features": [
+      "Microsoft 365 integration",
+      "Web search with citations",
+      "Document and email drafting",
+      "Image generation with Designer",
+      "Windows system integration"
+    ],
+    "pricingDetails": "Free web version. Copilot Pro $20/mo. Microsoft 365 Copilot $30/user/mo."
+  },
+  {
+    "name": "Microsoft Designer",
+    "slug": "microsoft",
+    "url": "https://designer.microsoft.com",
+    "description": "AI graphic design tool by Microsoft for creating social posts, invitations, and visuals from prompts.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.3,
+    "popularity": 62,
+    "id": "microsoft-designer",
+    "summary": "AI graphic design tool by Microsoft for creating social posts, invitations, and visuals from prompts. Powered by DALL-E for image generation. Free to use with a Microsoft account.",
+    "features": [
+      "AI image generation",
+      "Social media post templates",
+      "Background removal",
+      "Brand kit support",
+      "Microsoft 365 integration"
+    ],
+    "pricingDetails": "Free with Microsoft account. Premium features in Copilot Pro $20/mo."
+  }
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Tool — LaunchKit Tools</title>
+  <meta name="description" content="Submit your AI tool to be featured on LaunchKit Tools, the curated directory of the best AI tools.">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .submit-page{max-width:640px;margin:0 auto;padding:40px 24px}
+    .submit-page h1{font-family:var(--font);font-size:2rem;margin-bottom:8px}
+    .submit-page .lead{color:var(--muted);margin-bottom:32px}
+    .form-group{margin-bottom:20px}
+    .form-group label{display:block;font-weight:600;margin-bottom:6px;font-size:.9rem}
+    .form-group input,.form-group select,.form-group textarea{
+      width:100%;padding:12px;border:1px solid var(--border);border-radius:var(--radius);
+      font-size:.95rem;font-family:var(--font-ui);background:#fff;color:var(--text);outline:none;
+      transition:border .2s,box-shadow .2s}
+    .form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+      border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-light)}
+    .form-group textarea{resize:vertical;min-height:80px}
+    .submit-btn{
+      background:var(--accent);color:#fff;border:none;padding:14px 32px;
+      border-radius:var(--radius);font-size:1rem;font-weight:600;cursor:pointer;
+      transition:opacity .2s}
+    .submit-btn:hover{opacity:.9}
+    .success-msg{display:none;background:var(--green-bg);color:var(--green);padding:16px;border-radius:var(--radius);margin-top:16px;font-weight:500}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">LaunchKit <span>Tools</span></a>
+      <nav class="header-nav">
+        <a href="browse">Browse</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="submit-page">
+    <h1>Submit a Tool</h1>
+    <p class="lead">Know an AI tool that should be listed? Tell us about it and we'll review it for inclusion.</p>
+
+    <form id="submit-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+      <div class="form-group">
+        <label for="tool-name">Tool Name *</label>
+        <input type="text" id="tool-name" name="tool-name" required placeholder="e.g. ChatGPT">
+      </div>
+      <div class="form-group">
+        <label for="tool-url">Website URL *</label>
+        <input type="url" id="tool-url" name="tool-url" required placeholder="https://...">
+      </div>
+      <div class="form-group">
+        <label for="tool-category">Category *</label>
+        <select id="tool-category" name="tool-category" required>
+          <option value="">Select a category</option>
+          <option>Writing</option>
+          <option>Design</option>
+          <option>Coding</option>
+          <option>Marketing</option>
+          <option>Video</option>
+          <option>Audio</option>
+          <option>Productivity</option>
+          <option>Data</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="tool-pricing">Pricing</label>
+        <select id="tool-pricing" name="tool-pricing">
+          <option value="">Select pricing model</option>
+          <option>Free</option>
+          <option>Freemium</option>
+          <option>Paid</option>
+          <option>Enterprise</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="tool-desc">Short Description</label>
+        <textarea id="tool-desc" name="tool-desc" placeholder="What does this tool do? (1-2 sentences)"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="submitter-email">Your Email (optional)</label>
+        <input type="email" id="submitter-email" name="email" placeholder="We'll notify you when it's listed">
+      </div>
+      <button type="submit" class="submit-btn">Submit Tool</button>
+      <div class="success-msg" id="success-msg">Thanks! We'll review your submission and add it if it's a good fit.</div>
+    </form>
+  </div>
+
+  <footer class="site-footer" id="about">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="mailto:hello@launchkittools.com">Contact</a>
+        <a href="#">Privacy</a>
+      </div>
+      <p>&copy; 2026 LaunchKit Tools. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("submit-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      // For now just show success - wire up Formspree or Google Forms later
+      document.getElementById("success-msg").style.display = "block";
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse AI Tools — LaunchKit Tools</title>
+  <meta name="description" content="Browse and search 120+ curated AI tools by category, pricing, and popularity. Find the perfect AI tool for your workflow.">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="canonical" href="https://launchkittools.com/browse">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .browse-hero{text-align:center;padding:32px 24px 20px;max-width:800px;margin:0 auto}
+    .browse-hero h1{font-family:var(--font);font-size:2rem;font-weight:700;margin-bottom:8px;color:var(--text)}
+    .browse-hero h1 span{color:var(--accent)}
+    .browse-hero p{color:var(--muted);margin-bottom:20px}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">LaunchKit <span>Tools</span></a>
+      <nav class="header-nav">
+        <a href="browse" style="color:var(--accent)">Browse</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+        <a href="submit" style="color:var(--accent);font-weight:600">+ Submit Tool</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="browse-hero">
+    <h1>Browse <span>AI Tools</span></h1>
+    <p>Search, filter, and sort 120+ curated AI tools across every category.</p>
+    <div class="search-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
+      <input type="text" id="search" placeholder="Search tools by name, category, or description..." autocomplete="off">
+    </div>
+  </section>
+
+  <section class="filters-section">
+    <div class="filter-group" id="category-filters"></div>
+    <div class="filter-group" id="pricing-filters"></div>
+    <div class="filter-group" id="sort-filters"></div>
+  </section>
+
+  <section class="tools-section" id="tools">
+    <p class="tools-count" id="tools-count"></p>
+    <div class="tools-grid" id="tools-grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none">
+      <p>No tools match your filters. Try adjusting your search.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="submit">Submit a Tool</a>
+        <a href="mailto:hello@launchkittools.com">Contact</a>
+        <a href="#">Privacy</a>
+      </div>
+      <p>&copy; 2026 LaunchKit Tools. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // Handle URL params from landing page — retry until tools are loaded
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var q = params.get("q");
+      var cat = params.get("cat");
+      function tryApply() {
+        var cards = document.querySelectorAll(".tool-card");
+        if (!cards.length) { setTimeout(tryApply, 200); return; }
+        if (q) {
+          var search = document.getElementById("search");
+          if (search) { search.value = q; search.dispatchEvent(new Event("input")); }
+        }
+        if (cat) {
+          var btns = document.querySelectorAll("#category-filters .filter-btn");
+          btns.forEach(function(b) { if (b.textContent === cat) b.click(); });
+        }
+      }
+      if (q || cat) tryApply();
+    })();
+  </script>
+</body>
+</html>
+
+

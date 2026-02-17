@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LaunchKit Tools — Discover the Best AI Tools</title>
+  <meta name="description" content="Curated directory of 120+ top AI tools for writing, design, coding, marketing, video, audio, productivity, and data. Stop searching. Start building.">
+  <meta name="keywords" content="AI tools, artificial intelligence, AI directory, best AI tools, AI software, machine learning tools">
+  <meta property="og:title" content="LaunchKit Tools — Discover the Best AI Tools">
+  <meta property="og:description" content="Curated directory of the best AI tools for professionals. Browse by category, pricing, and popularity.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://launchkittools.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://launchkittools.com">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">LaunchKit <span>Tools</span></a>
+      <nav class="header-nav">
+        <a href="browse">Browse</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+        <a href="submit" style="color:var(--accent);font-weight:600">+ Submit Tool</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="landing-hero">
+    <div class="hero-content">
+      <div class="hero-card">
+        <img src="assets/logo-full-cropped.png" alt="LaunchKit Tools" class="hero-logo">
+        <h2 class="tagline">{ Stop searching. Start building }</h2>
+      </div>
+      <p class="hero-sub">The curated directory of <strong>120+ AI tools</strong> trusted by developers, creators, and professionals.</p>
+      <div class="hero-cta">
+        <a href="browse" class="btn-primary">Browse All Tools</a>
+        <a href="#categories" class="btn-secondary">Explore Categories</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="stat-tools">129</span><span class="stat-label">AI Tools</span></div>
+        <div class="stat"><span class="stat-num">8</span><span class="stat-label">Categories</span></div>
+        <div class="stat"><span class="stat-num">Weekly</span><span class="stat-label">Updates</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Search -->
+  <section class="quick-search">
+    <div class="search-wrap-lg">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
+      <input type="text" id="quick-search" placeholder="Quick search... ChatGPT, Midjourney, Cursor..." autocomplete="off">
+    </div>
+    <div class="quick-pills">
+      <a href="browse?q=free" class="pill">Free Tools</a>
+      <a href="browse?cat=Coding" class="pill">Coding</a>
+      <a href="browse?cat=Design" class="pill">Design</a>
+      <a href="browse?cat=Writing" class="pill">Writing</a>
+      <a href="browse?cat=Video" class="pill">Video</a>
+    </div>
+  </section>
+
+  <!-- Trending Tools -->
+  <section class="featured-section">
+    <h2 class="section-title">Trending Right Now</h2>
+    <p class="section-sub">The most popular AI tools this week</p>
+    <div class="featured-grid" id="trending-grid">
+      <!-- Filled by JS -->
+    </div>
+    <a href="browse?sort=popular" class="view-all">View all popular tools &rarr;</a>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories-section" id="categories">
+    <h2 class="section-title">Browse by Category</h2>
+    <p class="section-sub">Find the right tool for every part of your workflow</p>
+    <div class="cat-grid">
+      <a href="browse?cat=Writing" class="cat-card">
+        <span class="cat-icon">&#x270D;</span>
+        <h3>Writing</h3>
+        <p>AI writers, grammar tools, content generators</p>
+      </a>
+      <a href="browse?cat=Design" class="cat-card">
+        <span class="cat-icon">&#x1F3A8;</span>
+        <h3>Design</h3>
+        <p>Image generation, editing, graphic design</p>
+      </a>
+      <a href="browse?cat=Coding" class="cat-card">
+        <span class="cat-icon">&#x1F4BB;</span>
+        <h3>Coding</h3>
+        <p>Code assistants, AI editors, dev tools</p>
+      </a>
+      <a href="browse?cat=Marketing" class="cat-card">
+        <span class="cat-icon">&#x1F4E3;</span>
+        <h3>Marketing</h3>
+        <p>SEO, email, social media, analytics</p>
+      </a>
+      <a href="browse?cat=Video" class="cat-card">
+        <span class="cat-icon">&#x1F3AC;</span>
+        <h3>Video</h3>
+        <p>Video generation, editing, avatars</p>
+      </a>
+      <a href="browse?cat=Audio" class="cat-card">
+        <span class="cat-icon">&#x1F3B5;</span>
+        <h3>Audio</h3>
+        <p>Voice synthesis, music, transcription</p>
+      </a>
+      <a href="browse?cat=Productivity" class="cat-card">
+        <span class="cat-icon">&#x26A1;</span>
+        <h3>Productivity</h3>
+        <p>Scheduling, notes, automation, meetings</p>
+      </a>
+      <a href="browse?cat=Data" class="cat-card">
+        <span class="cat-icon">&#x1F4CA;</span>
+        <h3>Data</h3>
+        <p>Analytics, visualization, ML platforms</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Value Props -->
+  <section class="value-section">
+    <h2 class="section-title">Why LaunchKit Tools?</h2>
+    <div class="value-grid">
+      <div class="value-card">
+        <span class="value-icon">&#x1F50D;</span>
+        <h3>Curated, Not Scraped</h3>
+        <p>Every tool is vetted for quality. No spam, no dead links, no abandonware.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">&#x1F504;</span>
+        <h3>Updated Weekly</h3>
+        <p>New tools added and popularity rankings refreshed every Monday.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">&#x1F3AF;</span>
+        <h3>Built for Builders</h3>
+        <p>Filter by what matters: category, pricing, popularity. Find what you need in seconds.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">&#x1F4E5;</span>
+        <h3>Community Driven</h3>
+        <p>Submit tools you love. The best ones get featured for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-card">
+      <h2>Know a tool we're missing?</h2>
+      <p>Help us build the most complete AI tools directory on the web.</p>
+      <a href="submit" class="btn-primary">Submit a Tool</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="about">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo" style="font-size:1.2rem">LaunchKit <span>Tools</span></span>
+        <p style="margin-top:6px">The curated AI tools directory for professionals.</p>
+      </div>
+      <div class="footer-links-grid">
+        <div>
+          <h4>Directory</h4>
+          <a href="browse">Browse All</a>
+          <a href="browse?sort=popular">Popular</a>
+          <a href="browse?sort=newest">Newest</a>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <a href="browse?cat=Writing">Writing</a>
+          <a href="browse?cat=Coding">Coding</a>
+          <a href="browse?cat=Design">Design</a>
+          <a href="browse?cat=Video">Video</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="submit">Submit a Tool</a>
+          <a href="mailto:hello@launchkittools.com">Contact</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 LaunchKit Tools. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Load trending tools for homepage
+    fetch("tools.json")
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        // Update stat
+        var statEl = document.getElementById("stat-tools");
+        if (statEl) statEl.textContent = data.length;
+
+        // Top 6 by popularity
+        var trending = data.sort(function(a,b) { return (b.popularity||0) - (a.popularity||0); }).slice(0, 6);
+        var grid = document.getElementById("trending-grid");
+        var html = "";
+        trending.forEach(function(t) {
+          var domain = "";
+          try { domain = new URL(t.url).hostname; } catch(e) {}
+          var iconSrc = domain ? "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(domain) + "&sz=64" : "";
+          html += '<a href="tool?id=' + (t.id || '') + '" class="featured-card">' +
+            '<div class="fc-top">' +
+              (iconSrc ? '<img src="' + iconSrc + '" class="fc-icon" alt="">' : '<div class="fc-icon-letter">' + t.name.charAt(0) + '</div>') +
+              '<div><div class="fc-name">' + t.name + '</div><div class="fc-cat">' + t.category + '</div></div>' +
+            '</div>' +
+            '<p class="fc-desc">' + t.description + '</p>' +
+            '<div class="fc-meta">' +
+              '<span class="tag tag-pricing tag-' + t.pricing.toLowerCase() + '">' + t.pricing + '</span>' +
+              '<span class="fc-rating">\u2605 ' + t.rating + '</span>' +
+            '</div>' +
+          '</a>';
+        });
+        grid.innerHTML = html;
+      });
+
+    // Quick search redirect
+    document.getElementById("quick-search").addEventListener("keydown", function(e) {
+      if (e.key === "Enter" && this.value.trim()) {
+        window.location.href = "browse?q=" + encodeURIComponent(this.value.trim());
+      }
+    });
+  </script>
+</body>
+</html>
+
+
