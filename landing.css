@@ -94,7 +94,7 @@
   .landing-hero{padding:32px 16px 24px}
   .hero-content .hero-card{padding:20px 24px 16px}
   .hero-content .hero-logo{max-width:280px}
-  .hero-content .tagline{font-size:0.95rem}
+  .hero-content .tagline{font-size:0.85rem;white-space:nowrap}
   .hero-stats{gap:24px}
   .stat-num{font-size:1.3rem}
   .featured-grid{grid-template-columns:1fr}
