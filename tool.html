@@ -55,7 +55,16 @@
       .detail-icon{width:48px;height:48px;font-size:1.2rem}
     }
   </style>
-</head>
+
+  <meta property="og:title" content="Tool Details — LaunchKit Tools">
+  <meta property="og:description" content="Detailed information about this AI tool.">
+  <meta property="og:url" content="https://launchkittools.com/tool">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://launchkittools.com/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tool Details — LaunchKit Tools">
+  <meta name="twitter:description" content="Detailed information about this AI tool.">
+  <meta name="twitter:image" content="https://launchkittools.com/assets/og-image.png"></head>
 <body>
   <header class="site-header">
     <div class="header-inner">
@@ -103,6 +112,32 @@
           if (!tool) { showError("Tool not found: " + toolId); return; }
 
           document.title = tool.name + " \u2014 LaunchKit Tools";
+
+          // Inject JSON-LD structured data
+          var jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": tool.name,
+            "url": tool.url,
+            "description": tool.summary || tool.description,
+            "applicationCategory": "AI Tool - " + tool.category,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": tool.rating,
+              "bestRating": 5,
+              "ratingCount": Math.floor(tool.popularity * 10)
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": tool.pricing === "Free" ? "0" : "",
+              "priceCurrency": "USD",
+              "description": tool.pricingDetails || tool.pricing
+            }
+          };
+          var ldScript = document.createElement("script");
+          ldScript.type = "application/ld+json";
+          ldScript.textContent = JSON.stringify(jsonLd);
+          document.head.appendChild(ldScript);
           var meta = document.querySelector('meta[name="description"]');
           if (meta) meta.setAttribute("content", tool.summary || tool.description);
 
@@ -179,5 +214,6 @@
       }
     })();
   </script>
+<script data-goatcounter="https://launchkittools.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
