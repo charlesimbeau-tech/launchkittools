@@ -4,7 +4,7 @@
 .landing-hero{text-align:center;padding:48px 24px 32px;max-width:800px;margin:0 auto}
 .hero-content .hero-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:28px 40px 20px;display:inline-block;margin-bottom:20px;box-shadow:var(--shadow)}
 .hero-content .hero-logo{max-width:400px;margin:0 auto 8px}
-.hero-content .tagline{font-family:var(--font);font-size:1.2rem;font-weight:400;color:var(--muted);letter-spacing:.02em;margin:0;font-style:italic}
+.hero-content .tagline{font-family:var(--font);font-size:1.2rem;font-weight:400;color:var(--muted);letter-spacing:.02em;margin:0;font-style:italic;white-space:nowrap}
 .hero-sub{font-size:1.1rem;color:var(--muted);max-width:540px;margin:0 auto 24px;line-height:1.6}
 .hero-sub strong{color:var(--text)}
 
@@ -94,6 +94,7 @@
   .landing-hero{padding:32px 16px 24px}
   .hero-content .hero-card{padding:20px 24px 16px}
   .hero-content .hero-logo{max-width:280px}
+  .hero-content .tagline{font-size:0.95rem}
   .hero-stats{gap:24px}
   .stat-num{font-size:1.3rem}
   .featured-grid{grid-template-columns:1fr}
