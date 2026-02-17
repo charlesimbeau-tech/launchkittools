@@ -2578,5 +2578,25 @@
       "Microsoft 365 integration"
     ],
     "pricingDetails": "Free with Microsoft account. Premium features in Copilot Pro $20/mo."
+  },
+  {
+    "name": "OpenClaw",
+    "id": "openclaw",
+    "slug": null,
+    "url": "https://openclaw.ai",
+    "description": "Open-source AI assistant that lives on your machine — connects to your apps, messages, and workflow. Currently in beta.",
+    "summary": "OpenClaw is an open-source personal AI agent that runs locally on your computer and connects to your real-world tools — Discord, email, calendar, files, and more. It acts as a persistent co-pilot that remembers context across sessions and can automate tasks proactively. Currently in beta with an active developer community.",
+    "features": [
+      "Runs locally on your machine",
+      "Connects to Discord, Telegram, WhatsApp, and more",
+      "Persistent memory across sessions",
+      "Proactive task automation via heartbeats and cron",
+      "Open-source and community-driven"
+    ],
+    "pricingDetails": "Free and open-source. Requires your own AI API key (e.g. Anthropic, OpenAI).",
+    "category": "Productivity",
+    "pricing": "Free",
+    "rating": 4.5,
+    "popularity": 45
   }
 ]
