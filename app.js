@@ -21,7 +21,7 @@
     "Microsoft Copilot": "microsoft"
   };
 
-  var activeCategory = null;
+  var activeCategory = window.PRELOAD_CATEGORY || null;
   var activePricing = null;
   var activeSort = "popular";
   var tools = [];
@@ -34,11 +34,11 @@
     var sortWrap = $("#sort-filters");
 
     // Categories
-    var allCat = btn("All", true);
+    var allCat = btn("All", !window.PRELOAD_CATEGORY);
     allCat.addEventListener("click", function () { activeCategory = null; render(); setActive(catWrap, allCat); });
     catWrap.appendChild(allCat);
     CATEGORIES.forEach(function (c) {
-      var b = btn(c, false);
+      var b = btn(c, window.PRELOAD_CATEGORY === c);
       b.addEventListener("click", function () { activeCategory = c; render(); setActive(catWrap, b); });
       catWrap.appendChild(b);
     });
@@ -203,3 +203,6 @@
       console.error("Failed to load tools:", e);
     });
 })();
+
+
+
