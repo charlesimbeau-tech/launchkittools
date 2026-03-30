@@ -140,26 +140,6 @@
     "pricingDetails": "Starts with free credits. Paid and enterprise tiers available via Sourcegraph sales/pricing plans."
   },
   {
-    "name": "Bardeen",
-    "slug": null,
-    "url": "https://www.bardeen.ai",
-    "description": "AI automation tool that scrapes data, automates repetitive tasks, and connects apps.",
-    "category": "Productivity",
-    "pricing": "Freemium",
-    "rating": 4.2,
-    "popularity": 38,
-    "id": "bardeen",
-    "summary": "AI automation tool that scrapes data, automates repetitive tasks, and connects apps via browser extension. Works directly in your browser for web-based workflows. Specializes in scraping and data entry automation.",
-    "features": [
-      "Browser-based automation",
-      "Web scraping without code",
-      "AI workflow suggestions",
-      "Chrome extension",
-      "CRM and app integrations"
-    ],
-    "pricingDetails": "Free plan available. Professional $10/mo. Business $15/user/mo."
-  },
-  {
     "name": "Beautiful.ai",
     "slug": null,
     "url": "https://www.beautiful.ai",
@@ -289,7 +269,7 @@
     "rating": 4.8,
     "popularity": 99,
     "id": "chatgpt",
-    "summary": "OpenAI's flagship AI chatbot powered by GPT-4.5/GPT-4o. Handles writing, coding, analysis, and creative tasks through natural conversation. Features deep research capabilities and native voice mode.",
+    "summary": "OpenAI's flagship AI chatbot powered by GPT-4.5. Handles writing, coding, analysis, and creative tasks through natural conversation. Features Deep Research, native voice, and advanced data analysis.",
     "features": [
       "GPT-4o and GPT-4.5 models",
       "Deep Research mode",
@@ -327,9 +307,9 @@
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.7,
-    "popularity": 96,
+    "popularity": 99,
     "id": "claude",
-    "summary": "Anthropic's AI assistant excelling at analysis, coding, math, and long-document reasoning. Known for its 3.5 Sonnet and 3.7 reasoning models, it offers thoughtful, nuanced responses and strong safety alignment.",
+    "summary": "Anthropic's AI assistant excelling at analysis, coding, math, and long-document reasoning. Claude 3.7 Sonnet introduces extended reasoning capabilities and powerful agentic features.",
     "features": [
       "Extended context window",
       "Advanced reasoning (Claude 3.7)",
@@ -337,7 +317,7 @@
       "Artifacts for interactive content",
       "Code generation and review"
     ],
-    "pricingDetails": "Free tier available. Pro $20/mo. Team $25/user/mo. Enterprise custom."
+    "pricingDetails": "Free tier available. Pro $20/mo. Team $25/user/mo."
   },
   {
     "name": "ClickUp AI",
@@ -378,26 +358,6 @@
       "Text removal from images"
     ],
     "pricingDetails": "Free tier available. Pro $9/mo."
-  },
-  {
-    "name": "CoCounsel",
-    "slug": null,
-    "url": "https://www.thomsonreuters.com/en/cocounsel",
-    "description": "Professional AI assistant by Thomson Reuters for legal, tax, audit, and compliance workflows.",
-    "category": "Productivity",
-    "pricing": "Enterprise",
-    "rating": 4.4,
-    "popularity": 44,
-    "id": "casetext-cocounsel",
-    "summary": "CoCounsel (formerly Casetext) is Thomson Reuters' generative AI assistant for professionals. It helps legal and compliance teams with document review, research, drafting, and workflow automation. The legacy Casetext brand has been folded into CoCounsel.",
-    "features": [
-      "Legal and professional document review",
-      "Research assistance with trusted sources",
-      "Drafting support for memos and contracts",
-      "Workflow automation across TR products",
-      "Enterprise-grade security and compliance"
-    ],
-    "pricingDetails": "Professional and enterprise pricing through Thomson Reuters sales (varies by product bundle and seat count)."
   },
   {
     "name": "Codeium",
@@ -487,7 +447,7 @@
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.3,
-    "popularity": 56,
+    "popularity": 30,
     "id": "copy-ai",
     "summary": "AI-powered copywriting platform for generating marketing copy, emails, and social posts. Uses workflows to automate repetitive content tasks. Popular with small businesses and agencies.",
     "features": [
@@ -507,15 +467,15 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.6,
-    "popularity": 92,
+    "popularity": 98,
     "id": "cursor",
     "summary": "AI-first code editor built on VS Code with intelligent autocomplete, multi-file editing, and codebase-aware chat. The industry standard for AI coding, featuring agentic capabilities like Cursor Composer.",
     "features": [
-      "Codebase-aware AI chat",
-      "Multi-file editing with Composer",
-      "Tab autocomplete",
-      "Supports GPT-4 and Claude",
-      "VS Code extension compatibility"
+      "Agentic Composer mode",
+      "Deep codebase awareness",
+      "Multi-file generation and diffing",
+      "Support for Claude 3.7 & GPT-4.5",
+      "Terminal command automation"
     ],
     "pricingDetails": "Free hobby tier. Pro $20/mo. Business $40/user/mo."
   },
@@ -577,7 +537,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.8,
-    "popularity": 95
+    "popularity": 98
   },
   {
     "name": "Descript",
@@ -600,26 +560,6 @@
     "pricingDetails": "Free plan available. Hobbyist $24/mo. Pro $33/mo."
   },
   {
-    "name": "Descript Podcast",
-    "slug": "descript",
-    "url": "https://www.descript.com/podcasting",
-    "description": "AI podcast editor with text-based editing, filler word removal, and studio sound.",
-    "category": "Audio",
-    "pricing": "Freemium",
-    "rating": 4.4,
-    "popularity": 50,
-    "id": "descript-podcast",
-    "summary": "AI podcast editor with text-based editing, automatic transcription, and studio sound enhancement. Edit audio by editing the transcript. Removes filler words and generates show notes automatically.",
-    "features": [
-      "Text-based audio editing",
-      "Filler word removal",
-      "Studio sound enhancement",
-      "Automatic show notes",
-      "Multi-track editing"
-    ],
-    "pricingDetails": "Free plan available. Hobbyist $24/mo. Pro $33/mo."
-  },
-  {
     "name": "Devin",
     "slug": null,
     "url": "https://devin.ai",
@@ -627,7 +567,7 @@
     "category": "Coding",
     "pricing": "Enterprise",
     "rating": 4.3,
-    "popularity": 47,
+    "popularity": 70,
     "id": "devin",
     "summary": "Autonomous AI software engineer by Cognition Labs that plans, codes, debugs, and deploys end-to-end. Works independently on complex engineering tasks in its own development environment. First AI software engineer.",
     "features": [
@@ -905,19 +845,19 @@
     "slug": "xai",
     "url": "https://x.com/i/grok",
     "description": "xAI's conversational AI integrated with X, offering real-time knowledge and unvarnished answers.",
-    "summary": "Developed by xAI, Grok is integrated directly into the X platform. It provides real-time access to the global conversation on X and is designed to answer spicy questions that are rejected by most other AI systems. Now features advanced vision and reasoning.",
+    "summary": "Developed by xAI, Grok is integrated into the X platform. Grok 3 provides state-of-the-art coding and reasoning capabilities, real-time global conversation access, and unvarnished answers.",
     "features": [
+      "Grok 3 advanced reasoning",
       "Real-time X (Twitter) data access",
-      "Unfiltered/less restricted mode",
-      "Image generation integration",
-      "Humorous and sarcastic persona",
-      "Advanced vision capabilities"
+      "Unfiltered mode",
+      "Integrated image generation",
+      "Advanced vision and coding"
     ],
     "pricingDetails": "Included with X Premium ($8/mo) and Premium+ ($16/mo).",
     "category": "Productivity",
     "pricing": "Paid",
     "rating": 4.4,
-    "popularity": 88
+    "popularity": 92
   },
   {
     "name": "Hailuo AI",
@@ -1107,7 +1047,7 @@
     "category": "Writing",
     "pricing": "Paid",
     "rating": 4.5,
-    "popularity": 70,
+    "popularity": 45,
     "id": "jasper",
     "summary": "AI content platform built for marketing teams to produce on-brand copy at scale. Offers templates for ads, blogs, emails, and social media. Integrates brand voice and style guidelines.",
     "features": [
@@ -1187,7 +1127,7 @@
     "category": "Video",
     "pricing": "Freemium",
     "rating": 4.3,
-    "popularity": 45,
+    "popularity": 84,
     "id": "kling-ai",
     "summary": "AI video generation model by Kuaishou producing high-quality cinematic clips with realistic motion. Supports text-to-video and image-to-video with impressive consistency. Competitive with Sora and Runway.",
     "features": [
@@ -1487,15 +1427,15 @@
     "category": "Design",
     "pricing": "Paid",
     "rating": 4.8,
-    "popularity": 95,
+    "popularity": 97,
     "id": "midjourney",
-    "summary": "Leading AI image generator creating stunning artwork from text prompts via Discord and Web. The v6.5/v7 models offer unparalleled photorealism, text rendering, and artistic cohesion.",
+    "summary": "Leading AI generative model creating stunning artwork and cinematic videos from text prompts. The v6/v7 and new V1 Video models offer unparalleled photorealism, text rendering, and artistic cohesion.",
     "features": [
       "High-quality artistic image generation",
+      "Midjourney V1 Video generation",
       "Style and aspect ratio controls",
-      "Image variation and upscaling",
-      "Pan, zoom, and remix tools",
-      "Web interface and Discord bot"
+      "Web interface and Discord bot",
+      "Character reference consistency"
     ],
     "pricingDetails": "Basic $10/mo. Standard $30/mo. Pro $60/mo. Mega $120/mo."
   },
@@ -1747,7 +1687,7 @@
     "category": "Productivity",
     "pricing": "Freemium",
     "rating": 4.7,
-    "popularity": 93,
+    "popularity": 95,
     "id": "perplexity",
     "summary": "AI-powered search engine delivering cited, real-time answers from across the web. Features Perplexity Deep Research for compiling extensive reports and analyzing complex topics across hundreds of sources.",
     "features": [
@@ -1778,26 +1718,6 @@
       "API for automation"
     ],
     "pricingDetails": "Free plan available. Pro $13/mo. Enterprise custom."
-  },
-  {
-    "name": "Pictory",
-    "slug": null,
-    "url": "https://pictory.ai",
-    "description": "AI video creator that turns blog posts and scripts into short branded videos.",
-    "category": "Video",
-    "pricing": "Freemium",
-    "rating": 4.2,
-    "popularity": 40,
-    "id": "pictory",
-    "summary": "AI video creator that turns blog posts and scripts into short branded videos automatically. Extracts key content and pairs with stock footage. Ideal for content repurposing and social media.",
-    "features": [
-      "Blog-to-video conversion",
-      "Script-to-video creation",
-      "AI voiceover",
-      "Auto-captioning",
-      "Brand customization"
-    ],
-    "pricingDetails": "Starter $19/mo. Professional $39/mo. Teams $99/mo."
   },
   {
     "name": "Pika",
@@ -2047,7 +1967,7 @@
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.1,
-    "popularity": 40,
+    "popularity": 30,
     "id": "rytr",
     "summary": "Affordable AI writing assistant supporting 30+ languages and 20+ tones of voice. Generates blog posts, emails, ads, and social content. Great for freelancers and small teams on a budget.",
     "features": [
@@ -2127,7 +2047,7 @@
     "category": "Video",
     "pricing": "Paid",
     "rating": 4.6,
-    "popularity": 88,
+    "popularity": 85,
     "id": "sora",
     "summary": "OpenAI's text-to-video model generating realistic cinematic clips from text prompts. Now widely available, producing up to 60-second videos with consistent characters, physics, and audio generation.",
     "features": [
@@ -2137,7 +2057,7 @@
       "Storyboard mode",
       "Video remixing and editing"
     ],
-    "pricingDetails": "Available to ChatGPT Plus and Pro users. API usage priced per minute of generation."
+    "pricingDetails": "Available to ChatGPT Plus and Pro users. Video generation counts towards usage limits."
   },
   {
     "name": "Soundraw",
@@ -2667,7 +2587,7 @@
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.2,
-    "popularity": 48,
+    "popularity": 38,
     "id": "writesonic",
     "summary": "AI writing platform for creating SEO-optimized blog posts, ads, and product descriptions. Includes Chatsonic, an AI chatbot with real-time web access. Supports multiple content formats.",
     "features": [
@@ -2698,5 +2618,200 @@
       "Tables database feature"
     ],
     "pricingDetails": "Free plan with 100 tasks/mo. Starter $20/mo. Professional $49/mo. Team $69/mo."
+  },
+  {
+    "name": "Manus AI",
+    "slug": "manus",
+    "url": "https://manus.im",
+    "description": "Autonomous AI agent that executes complex multi-step tasks across the web.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 92,
+    "id": "manus-ai",
+    "summary": "An autonomous AI agent capable of planning and executing complex multi-step tasks across the web. Often used for deep research, data scraping, and even operating other software tools.",
+    "features": [
+      "Multi-step autonomous execution",
+      "Web browsing and research",
+      "Task automation without APIs",
+      "Software operation",
+      "Integration with advanced video/image models"
+    ],
+    "pricingDetails": "Pro /mo. Enterprise custom."
+  },
+  {
+    "name": "Workbeaver",
+    "slug": null,
+    "url": "https://workbeaver.ai",
+    "description": "AI automation agent that builds and runs workflows from simple text prompts.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 75,
+    "id": "workbeaver",
+    "summary": "An AI automation agent that builds and runs workflows from simple text prompts. Just describe the task and it does the work for you, saving hours on repetitive admin tasks.",
+    "features": [
+      "Prompt-based automation",
+      "No-code workflow builder",
+      "Cross-app integrations",
+      "Background execution",
+      "Daily scheduled tasks"
+    ],
+    "pricingDetails": "Free tier available. Pro /mo."
+  },
+  {
+    "name": "Veo 3",
+    "slug": "google",
+    "url": "https://deepmind.google/technologies/veo/",
+    "description": "Google�s state-of-the-art realistic video generation model.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.8,
+    "popularity": 89,
+    "id": "veo-3",
+    "summary": "Google�s latest hyper-realistic video generation model that creates high-fidelity, physically accurate cinematic clips from text. Integrated into Vertex AI and select partner platforms.",
+    "features": [
+      "Hyper-realistic video generation",
+      "Accurate physical physics",
+      "Long-duration clips",
+      "Advanced prompt adherence",
+      "Cinematic camera controls"
+    ],
+    "pricingDetails": "Available via Google Vertex AI API. Usage-based pricing."
+  },
+  {
+    "name": "Freepik AI",
+    "slug": "freepik",
+    "url": "https://www.freepik.com/ai",
+    "description": "Comprehensive suite of AI image generation and editing tools built into Freepik.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 85,
+    "id": "freepik-ai",
+    "summary": "A comprehensive suite of AI image generation and editing tools built into the popular Freepik asset platform. Known for highly consistent visual outputs and an intuitive infinite canvas.",
+    "features": [
+      "High-consistency image generation",
+      "Infinite canvas editing",
+      "Real-time generation",
+      "Vector output support",
+      "Seamless asset library integration"
+    ],
+    "pricingDetails": "Free daily limits. Premium .99/mo."
+  },
+  {
+    "name": "Winston AI",
+    "slug": null,
+    "url": "https://gowinston.ai",
+    "description": "Industry-leading AI content detection and humanization platform.",
+    "category": "Writing",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "popularity": 72,
+    "id": "winston-ai",
+    "summary": "Advanced AI content detection tool built for educators and web publishers to ensure content authenticity. Also features tools to humanize AI text to bypass strict detectors.",
+    "features": [
+      "99% accurate AI detection",
+      "Plagiarism checking",
+      "Readability scoring",
+      "AI content humanizer",
+      "API access for bulk scanning"
+    ],
+    "pricingDetails": "Essential /mo. Advanced /mo."
+  },
+  {
+    "name": "Claude Code",
+    "id": "claude-code",
+    "url": "https://anthropic.com/claude-code",
+    "description": "Anthropic's agentic CLI tool that autonomously writes, edits, and debugs code in your local environment.",
+    "summary": "Claude Code is Anthropic's new CLI-based agent that lives in your terminal. It can navigate your codebase, run tests, fix bugs, and commit changes autonomously, functioning as an integrated junior developer.",
+    "features": [
+      "Autonomous code generation",
+      "Local terminal integration",
+      "Runs tests and debugs",
+      "Multi-file refactoring",
+      "Git integration"
+    ],
+    "pricingDetails": "Billed via Anthropic API usage. Requires Claude API key.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.8,
+    "popularity": 96
+  },
+  {
+    "name": "Higgsfield AI",
+    "id": "higgsfield",
+    "url": "https://higgsfield.ai",
+    "description": "AI video creation platform specifically tailored for social media creators and marketing teams.",
+    "summary": "Higgsfield democratizes AI video creation with a mobile-first platform designed for social media. It allows creators to generate, edit, and remix highly realistic video clips with precise character and camera controls.",
+    "features": [
+      "Mobile-first video generation",
+      "Precise character consistency",
+      "Social media templates",
+      "Camera and motion controls",
+      "Text-to-video and image-to-video"
+    ],
+    "pricingDetails": "Free tier with credits. Pro plan at $15/mo.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 75
+  },
+  {
+    "name": "Klu",
+    "id": "klu",
+    "url": "https://klu.ai",
+    "description": "Unified AI search and chat workspace that connects to all your company's internal apps and data.",
+    "summary": "Klu centralizes your company's knowledge by connecting to Google Drive, Notion, Slack, and other apps. It provides a unified search and AI chat interface to find answers instantly across your entire organization's data.",
+    "features": [
+      "Connects to 50+ internal apps",
+      "Unified AI search",
+      "Generative answers with citations",
+      "Custom AI apps without code",
+      "Enterprise-grade security"
+    ],
+    "pricingDetails": "Free for individuals. Pro $20/user/mo. Enterprise custom.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 68
+  },
+  {
+    "name": "Oasis",
+    "id": "oasis",
+    "url": "https://decart.ai/oasis",
+    "description": "The first playable, real-time AI world generated entirely by a foundation model.",
+    "summary": "Oasis by Decart is a breakthrough interactive AI model that generates a playable, Minecraft-like environment in real-time. Instead of a traditional game engine, the entire physics, lighting, and gameplay are simulated frame-by-frame by an AI neural network.",
+    "features": [
+      "Real-time interactive video generation",
+      "Playable AI environment",
+      "Zero game engine code",
+      "Physics and lighting simulation",
+      "Web-based gameplay"
+    ],
+    "pricingDetails": "Free during beta.",
+    "category": "Video",
+    "pricing": "Free",
+    "rating": 4.7,
+    "popularity": 88
+  },
+  {
+    "name": "Domscribe",
+    "id": "domscribe",
+    "url": "https://domscribe.dev",
+    "description": "UI-aware AI coding agent that visually understands web applications to fix frontend bugs.",
+    "summary": "Domscribe bridges the gap between design and code by allowing AI to see your live web application. It uses DOM awareness and visual regression to fix UI bugs, adjust CSS, and build React components with perfect pixel accuracy.",
+    "features": [
+      "Visual UI understanding",
+      "Live DOM manipulation",
+      "Automated CSS fixes",
+      "React component generation",
+      "Visual regression testing"
+    ],
+    "pricingDetails": "Starter $19/mo. Pro $49/mo.",
+    "category": "Coding",
+    "pricing": "Paid",
+    "rating": 4.3,
+    "popularity": 65
   }
 ]
