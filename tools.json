@@ -263,15 +263,15 @@
     "name": "ChatGPT",
     "slug": "openai",
     "url": "https://chat.openai.com",
-    "description": "AI chatbot for writing, brainstorming, coding, and research powered by GPT-4.",
+    "description": "AI chatbot for writing, brainstorming, coding, and research powered by GPT-5.4.",
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.8,
     "popularity": 99,
     "id": "chatgpt",
-    "summary": "OpenAI's flagship AI chatbot powered by GPT-4.5. Handles writing, coding, analysis, and creative tasks through natural conversation. Features Deep Research, native voice, and advanced data analysis.",
+    "summary": "OpenAI's flagship AI chatbot powered by GPT-5.4. Handles writing, coding, analysis, and creative tasks through natural conversation. Features Deep Research, native voice, and advanced data analysis.",
     "features": [
-      "GPT-4o and GPT-4.5 models",
+      "GPT-5.4 models",
       "Deep Research mode",
       "Native voice conversation",
       "Sora video integration",
@@ -474,7 +474,7 @@
       "Agentic Composer mode",
       "Deep codebase awareness",
       "Multi-file generation and diffing",
-      "Support for Claude 3.7 & GPT-4.5",
+      "Support for Claude 3.7 & GPT-5.4",
       "Terminal command automation"
     ],
     "pricingDetails": "Free hobby tier. Pro $20/mo. Business $40/user/mo."
@@ -1389,7 +1389,7 @@
     "rating": 4.5,
     "popularity": 90,
     "id": "microsoft-copilot",
-    "summary": "Microsoft's AI assistant integrated across Windows, Edge, Office 365, and Azure. Powered by GPT-4 with access to web search and Microsoft Graph. The most widely deployed enterprise AI assistant.",
+    "summary": "Microsoft's AI assistant integrated across Windows, Edge, Office 365, and Azure. Powered by GPT-5.4 with access to web search and Microsoft Graph. The most widely deployed enterprise AI assistant.",
     "features": [
       "Microsoft 365 integration",
       "Web search with citations",
@@ -1697,7 +1697,7 @@
       "File upload and analysis",
       "Collections for organizing research"
     ],
-    "pricingDetails": "Free plan available. Pro $20/mo with GPT-4 and Claude access."
+    "pricingDetails": "Free plan available. Pro $20/mo with GPT-5.4 and Claude access."
   },
   {
     "name": "Photoroom",
