@@ -127,7 +127,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.5,
-    "popularity": 59,
+    "popularity": 67,
     "id": "amp",
     "summary": "Amp is Sourcegraph?s coding agent built for autonomous reasoning and complex code changes in real repos. It is gaining adoption among engineering teams that want shared threads and reproducible workflows. Available through CLI and VS Code extension.",
     "features": [
@@ -138,6 +138,26 @@
       "Optimized for high-quality code outcomes"
     ],
     "pricingDetails": "Starts with free credits. Paid and enterprise tiers available via Sourcegraph sales/pricing plans."
+  },
+  {
+    "name": "Baton",
+    "id": "baton",
+    "slug": null,
+    "url": "https://www.producthunt.com/products/baton-2",
+    "description": "Desktop app for orchestrating multiple AI coding agents in parallel across git-isolated workspaces.",
+    "summary": "Baton is a desktop orchestration layer for developers running multiple terminal-based coding agents at once. It gained immediate Product Hunt attention for making parallel agent workflows practical, especially for Claude Code, Codex, and similar tools that benefit from isolation and handoff control.",
+    "features": [
+      "Parallel AI coding agent orchestration",
+      "Git-isolated workspaces per agent",
+      "Works with Claude Code, Codex, and terminal agents",
+      "Attention/notification system for agent handoffs",
+      "Desktop workflow for multi-task coding operations"
+    ],
+    "pricingDetails": "Early-stage product; pricing not clearly published in public launch materials yet.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 71
   },
   {
     "name": "Beautiful.ai",
@@ -167,7 +187,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.4,
-    "popularity": 85,
+    "popularity": 87,
     "id": "bolt-new",
     "summary": "AI full-stack app builder by StackBlitz that generates, runs, and deploys web apps directly in the browser. Creates complete applications from natural language descriptions. Supports multiple frameworks.",
     "features": [
@@ -320,6 +340,45 @@
     "pricingDetails": "Free tier available. Pro $20/mo. Team $25/user/mo."
   },
   {
+    "name": "Claude Code",
+    "id": "claude-code",
+    "url": "https://anthropic.com/claude-code",
+    "description": "Anthropic's agentic CLI tool that autonomously writes, edits, and debugs code in your local environment.",
+    "summary": "Anthropic's agentic CLI tool that autonomously writes, edits, and debugs code in your local environment. Claude Code keeps gaining momentum as developers move from autocomplete to full task execution, and it now sits in the center of most serious AI coding stack comparisons.",
+    "features": [
+      "Autonomous code generation",
+      "Local terminal integration",
+      "Runs tests and debugs",
+      "Multi-file refactoring",
+      "Git integration"
+    ],
+    "pricingDetails": "Billed via Anthropic API usage. Requires Claude API key.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "rating": 4.8,
+    "popularity": 97
+  },
+  {
+    "name": "Claudoscope",
+    "id": "claudoscope",
+    "slug": null,
+    "url": "https://www.producthunt.com/products/claudoscope",
+    "description": "Local desktop app for browsing, searching, and analyzing Claude Code sessions and costs.",
+    "summary": "Claudoscope is a native local tool for people living inside Claude Code. It got traction because it solves a real pain point for heavy users: searching session history, understanding cost by project, and linting config or skills issues without shipping your data to a cloud dashboard.",
+    "features": [
+      "Chat-style Claude Code session browser",
+      "Full-text search across sessions",
+      "Per-project and per-session cost analytics",
+      "Config health linting for CLAUDE.md, skills, and hooks",
+      "Runs locally with no telemetry"
+    ],
+    "pricingDetails": "Free and MIT-licensed.",
+    "category": "Coding",
+    "pricing": "Free",
+    "rating": 4.5,
+    "popularity": 63
+  },
+  {
     "name": "ClickUp AI",
     "slug": "clickup",
     "url": "https://clickup.com/ai",
@@ -460,6 +519,26 @@
     "pricingDetails": "Free plan with 2,000 words/mo. Pro $49/mo. Enterprise custom."
   },
   {
+    "name": "Crossnode",
+    "id": "crossnode",
+    "slug": null,
+    "url": "https://www.producthunt.com/products/crossnode",
+    "description": "Platform for packaging AI workflows and agents into client-facing paid services with billing and access controls.",
+    "summary": "Crossnode sits in a smart niche: it turns internal automations into something you can actually sell. That positioning helped it pop in launch communities this week, especially among builders using n8n-style workflows who want logins, billing, and usage caps without standing up their own SaaS backend.",
+    "features": [
+      "Turn workflows into paid client-facing products",
+      "Supports uploaded or prompt-built automations",
+      "Built-in logins and client access management",
+      "Usage caps and billing controls",
+      "No custom backend or payments setup required"
+    ],
+    "pricingDetails": "Pricing was not clearly published in the public launch snippets reviewed this week.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 55
+  },
+  {
     "name": "Cursor",
     "slug": "cursor",
     "url": "https://cursor.sh",
@@ -467,14 +546,14 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.6,
-    "popularity": 98,
+    "popularity": 99,
     "id": "cursor",
-    "summary": "AI-first code editor built on VS Code with intelligent autocomplete, multi-file editing, and codebase-aware chat. The industry standard for AI coding, featuring agentic capabilities like Cursor Composer.",
+    "summary": "AI-first code editor built on VS Code with intelligent autocomplete, multi-file editing, and codebase-aware chat. Cursor remains the reference point in AI coding and just got another visibility bump from the Cursor 3 launch, which pushed parallel agent workflows and stronger multi-repo coordination into the mainstream.",
     "features": [
-      "Agentic Composer mode",
+      "Agentic Composer and agent workflows",
       "Deep codebase awareness",
       "Multi-file generation and diffing",
-      "Support for Claude 3.7 & GPT-5.4",
+      "Parallel task handling and repo-scale context",
       "Terminal command automation"
     ],
     "pricingDetails": "Free hobby tier. Pro $20/mo. Business $40/user/mo."
@@ -578,6 +657,25 @@
       "Learns from codebase context"
     ],
     "pricingDetails": "Enterprise pricing at $500/mo per seat."
+  },
+  {
+    "name": "Domscribe",
+    "id": "domscribe",
+    "url": "https://domscribe.dev",
+    "description": "UI-aware AI coding agent that visually understands web applications to fix frontend bugs.",
+    "summary": "Domscribe bridges the gap between design and code by allowing AI to see your live web application. It uses DOM awareness and visual regression to fix UI bugs, adjust CSS, and build React components with perfect pixel accuracy.",
+    "features": [
+      "Visual UI understanding",
+      "Live DOM manipulation",
+      "Automated CSS fixes",
+      "React component generation",
+      "Visual regression testing"
+    ],
+    "pricingDetails": "Starter $19/mo. Pro $49/mo.",
+    "category": "Coding",
+    "pricing": "Paid",
+    "rating": 4.3,
+    "popularity": 65
   },
   {
     "name": "Eightfold AI",
@@ -718,6 +816,26 @@
       "Built-in hosting and domains"
     ],
     "pricingDetails": "Free plan available. Mini $5/mo. Basic $15/mo. Pro $30/mo."
+  },
+  {
+    "name": "Freepik AI",
+    "slug": "freepik",
+    "url": "https://www.freepik.com/ai",
+    "description": "Comprehensive suite of AI image generation and editing tools built into Freepik.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 85,
+    "id": "freepik-ai",
+    "summary": "A comprehensive suite of AI image generation and editing tools built into the popular Freepik asset platform. It continues to attract creators who want generation, editing, templates, and stock assets in one place rather than stitching together several separate tools.",
+    "features": [
+      "High-consistency image generation",
+      "Infinite canvas editing",
+      "Real-time generation",
+      "Vector output support",
+      "Seamless asset library integration"
+    ],
+    "pricingDetails": "Free plan with daily generation limits. Premium plans available through Freepik subscription tiers."
   },
   {
     "name": "Gamma",
@@ -960,6 +1078,25 @@
     "pricingDetails": "Free plan with 1 credit. Creator $29/mo. Business $89/mo. Enterprise custom."
   },
   {
+    "name": "Higgsfield AI",
+    "id": "higgsfield",
+    "url": "https://higgsfield.ai",
+    "description": "AI video creation platform specifically tailored for social media creators and marketing teams.",
+    "summary": "Higgsfield democratizes AI video creation with a mobile-first platform designed for social media. It allows creators to generate, edit, and remix highly realistic video clips with precise character and camera controls.",
+    "features": [
+      "Mobile-first video generation",
+      "Precise character consistency",
+      "Social media templates",
+      "Camera and motion controls",
+      "Text-to-video and image-to-video"
+    ],
+    "pricingDetails": "Free tier with credits. Pro plan at $15/mo.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "rating": 4.4,
+    "popularity": 75
+  },
+  {
     "name": "HubSpot AI",
     "slug": "hubspot",
     "url": "https://www.hubspot.com/artificial-intelligence",
@@ -1107,7 +1244,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.4,
-    "popularity": 61,
+    "popularity": 66,
     "id": "kilo-code",
     "summary": "Kilo Code is an open-source agentic coding assistant focused on planning, coding, and debugging loops. It has built substantial momentum in the developer community and appears frequently in current AI coding tool comparisons. Teams can use hosted credits or self-managed model keys.",
     "features": [
@@ -1138,6 +1275,25 @@
       "Lip sync capabilities"
     ],
     "pricingDetails": "Free tier with daily credits. Standard $5.99/mo. Pro $21.99/mo. Premier $53.99/mo."
+  },
+  {
+    "name": "Klu",
+    "id": "klu",
+    "url": "https://klu.ai",
+    "description": "Unified AI search and chat workspace that connects to all your company's internal apps and data.",
+    "summary": "Klu centralizes your company's knowledge by connecting to Google Drive, Notion, Slack, and other apps. It provides a unified search and AI chat interface to find answers instantly across your entire organization's data.",
+    "features": [
+      "Connects to 50+ internal apps",
+      "Unified AI search",
+      "Generative answers with citations",
+      "Custom AI apps without code",
+      "Enterprise-grade security"
+    ],
+    "pricingDetails": "Free for individuals. Pro $20/user/mo. Enterprise custom.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 68
   },
   {
     "name": "Krea AI",
@@ -1267,7 +1423,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.3,
-    "popularity": 82,
+    "popularity": 84,
     "id": "lovable",
     "summary": "AI software engineer that builds full-stack web applications from natural language descriptions. Generates complete apps with frontend, backend, and database. Formerly known as GPT Engineer.",
     "features": [
@@ -1338,6 +1494,26 @@
       "AI-powered scenario building"
     ],
     "pricingDetails": "Free plan with 1,000 ops/mo. Core $9/mo. Pro $16/mo. Teams $29/mo."
+  },
+  {
+    "name": "Manus AI",
+    "slug": "manus",
+    "url": "https://manus.im",
+    "description": "Autonomous AI agent that executes complex multi-step tasks across the web.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 92,
+    "id": "manus-ai",
+    "summary": "An autonomous AI agent capable of planning and executing complex multi-step tasks across the web. It remains one of the most talked-about general-purpose agents for research and execution-heavy workflows, especially among power users comparing hands-off agent products.",
+    "features": [
+      "Multi-step autonomous execution",
+      "Web browsing and research",
+      "Task automation without APIs",
+      "Software operation",
+      "Integration with advanced video/image models"
+    ],
+    "pricingDetails": "Paid plans available; pricing is currently usage/plan based through Manus. Enterprise options available on request."
   },
   {
     "name": "Mem",
@@ -1547,7 +1723,7 @@
     "category": "Productivity",
     "pricing": "Free",
     "rating": 4.5,
-    "popularity": 81,
+    "popularity": 84,
     "id": "notebooklm",
     "summary": "Google's AI research assistant that grounds responses in your uploaded documents. Generates Audio Overviews (podcast-style discussions) from your sources. Ideal for studying, research, and content synthesis.",
     "features": [
@@ -1580,6 +1756,25 @@
     "pricingDetails": "Notion AI add-on $10/member/mo on top of Notion plan."
   },
   {
+    "name": "Oasis",
+    "id": "oasis",
+    "url": "https://decart.ai/oasis",
+    "description": "The first playable, real-time AI world generated entirely by a foundation model.",
+    "summary": "Oasis by Decart is a breakthrough interactive AI model that generates a playable, Minecraft-like environment in real-time. Instead of a traditional game engine, the entire physics, lighting, and gameplay are simulated frame-by-frame by an AI neural network.",
+    "features": [
+      "Real-time interactive video generation",
+      "Playable AI environment",
+      "Zero game engine code",
+      "Physics and lighting simulation",
+      "Web-based gameplay"
+    ],
+    "pricingDetails": "Free during beta.",
+    "category": "Video",
+    "pricing": "Free",
+    "rating": 4.7,
+    "popularity": 88
+  },
+  {
     "name": "Obviously AI",
     "slug": "obviouslyai",
     "url": "https://www.obviously.ai",
@@ -1598,6 +1793,26 @@
       "Integration with data sources"
     ],
     "pricingDetails": "Growth $75/mo. Enterprise custom pricing."
+  },
+  {
+    "name": "OpenBox",
+    "id": "openbox",
+    "slug": null,
+    "url": "https://www.producthunt.com/products/openbox",
+    "description": "Enterprise trust and governance platform for monitoring, verifying, and controlling AI agent actions.",
+    "summary": "OpenBox targets the fast-growing governance layer around agentic AI. It launched with a strong enterprise angle—runtime governance, cryptographic verification, and compliance controls—which makes it especially relevant as more teams move agents into regulated or customer-facing workflows.",
+    "features": [
+      "Runtime governance for agent actions",
+      "Cryptographic verification and provenance",
+      "Enterprise compliance controls",
+      "SDK integrations with common agent frameworks",
+      "Risk scoring and trust monitoring"
+    ],
+    "pricingDetails": "Available for organizations; public launch materials emphasize enterprise availability, but detailed pricing is not publicly listed.",
+    "category": "Productivity",
+    "pricing": "Enterprise",
+    "rating": 4.3,
+    "popularity": 57
   },
   {
     "name": "OpenClaw",
@@ -1687,7 +1902,7 @@
     "category": "Productivity",
     "pricing": "Freemium",
     "rating": 4.7,
-    "popularity": 95,
+    "popularity": 96,
     "id": "perplexity",
     "summary": "AI-powered search engine delivering cited, real-time answers from across the web. Features Perplexity Deep Research for compiling extensive reports and analyzing complex topics across hundreds of sources.",
     "features": [
@@ -2200,6 +2415,26 @@
     "pricingDetails": "Starter $22/mo. Creator $67/mo. Enterprise custom pricing."
   },
   {
+    "name": "T-Rex Label",
+    "id": "t-rex-label",
+    "slug": null,
+    "url": "https://www.producthunt.com/categories/ai-software",
+    "description": "Computer-vision data labeling tool focused on zero-shot auto-annotation and export-friendly dataset workflows.",
+    "summary": "T-Rex Label surfaced in Product Hunt’s current AI software discussions as part of the new wave of workflow-specific AI tooling. It stands out by focusing on computer-vision teams that want faster dataset creation through zero-shot annotation rather than generic no-code AI positioning.",
+    "features": [
+      "Zero-shot auto-annotation",
+      "Computer-vision dataset labeling workflows",
+      "Export support for downstream training pipelines",
+      "Faster review loops for annotation teams",
+      "Focused tool for CV data operations"
+    ],
+    "pricingDetails": "Pricing not clearly published in the sources reviewed.",
+    "category": "Data",
+    "pricing": "Paid",
+    "rating": 4.1,
+    "popularity": 49
+  },
+  {
     "name": "Tableau AI",
     "slug": "tableau",
     "url": "https://www.tableau.com",
@@ -2387,7 +2622,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.3,
-    "popularity": 49,
+    "popularity": 58,
     "id": "tonkotsu",
     "summary": "Tonkotsu helps developers coordinate many coding tasks in parallel using Claude Code agents. Its workflow emphasizes plan approval, delegated execution, and test-based verification before commits. It has gained momentum in Hacker News and AI coding communities.",
     "features": [
@@ -2480,6 +2715,26 @@
     "pricingDetails": "Free plan available. Basic $18/mo. Pro $30/mo. Business $59/mo."
   },
   {
+    "name": "Veo 3",
+    "slug": "google",
+    "url": "https://deepmind.google/technologies/veo/",
+    "description": "Google’s state-of-the-art realistic video generation model.",
+    "category": "Video",
+    "pricing": "Paid",
+    "rating": 4.8,
+    "popularity": 89,
+    "id": "veo-3",
+    "summary": "Google’s latest hyper-realistic video generation model that creates high-fidelity, physically accurate cinematic clips from text. Integrated into Vertex AI and select partner platforms.",
+    "features": [
+      "Hyper-realistic video generation",
+      "Accurate physical motion and scene coherence",
+      "Long-duration clips",
+      "Advanced prompt adherence",
+      "Cinematic camera controls"
+    ],
+    "pricingDetails": "Available via Google Vertex AI API. Usage-based pricing."
+  },
+  {
     "name": "Vercel AI SDK",
     "slug": "vercel",
     "url": "https://sdk.vercel.ai",
@@ -2507,7 +2762,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.5,
-    "popularity": 85,
+    "popularity": 88,
     "id": "windsurf",
     "summary": "AI-powered code editor by Codeium with deep codebase understanding and multi-file editing capabilities. Features Cascade, a powerful agentic AI that can autonomously reason across your entire project.",
     "features": [
@@ -2518,6 +2773,26 @@
       "VS Code extension support"
     ],
     "pricingDetails": "Free tier available. Pro $15/mo. Enterprise custom."
+  },
+  {
+    "name": "Winston AI",
+    "slug": null,
+    "url": "https://gowinston.ai",
+    "description": "Industry-leading AI content detection and humanization platform.",
+    "category": "Writing",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "popularity": 72,
+    "id": "winston-ai",
+    "summary": "Advanced AI content detection tool built for educators, publishers, and teams checking content authenticity. It stays relevant as schools and content operations continue looking for detection and review workflows despite the broader debate over detector reliability.",
+    "features": [
+      "99% accurate AI detection",
+      "Plagiarism checking",
+      "Readability scoring",
+      "AI content humanizer",
+      "API access for bulk scanning"
+    ],
+    "pricingDetails": "Paid plans available. Pricing varies by scan volume and business needs."
   },
   {
     "name": "Wispr Flow",
@@ -2580,6 +2855,26 @@
     "pricingDetails": "Free plan with 10 rewrites/day. Plus $10/mo. Unlimited $15/mo."
   },
   {
+    "name": "Workbeaver",
+    "slug": null,
+    "url": "https://workbeaver.ai",
+    "description": "AI automation agent that builds and runs workflows from simple text prompts.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.2,
+    "popularity": 75,
+    "id": "workbeaver",
+    "summary": "An AI automation agent that builds and runs workflows from simple text prompts. It is getting attention as a lightweight way to stand up useful automations without manually wiring every step yourself.",
+    "features": [
+      "Prompt-based automation",
+      "No-code workflow builder",
+      "Cross-app integrations",
+      "Background execution",
+      "Daily scheduled tasks"
+    ],
+    "pricingDetails": "Free tier available. Paid plans available; exact pricing varies by plan and may change during rollout."
+  },
+  {
     "name": "Writesonic",
     "slug": "writesonic",
     "url": "https://writesonic.com",
@@ -2618,200 +2913,5 @@
       "Tables database feature"
     ],
     "pricingDetails": "Free plan with 100 tasks/mo. Starter $20/mo. Professional $49/mo. Team $69/mo."
-  },
-  {
-    "name": "Manus AI",
-    "slug": "manus",
-    "url": "https://manus.im",
-    "description": "Autonomous AI agent that executes complex multi-step tasks across the web.",
-    "category": "Productivity",
-    "pricing": "Paid",
-    "rating": 4.6,
-    "popularity": 92,
-    "id": "manus-ai",
-    "summary": "An autonomous AI agent capable of planning and executing complex multi-step tasks across the web. Often used for deep research, data scraping, and even operating other software tools.",
-    "features": [
-      "Multi-step autonomous execution",
-      "Web browsing and research",
-      "Task automation without APIs",
-      "Software operation",
-      "Integration with advanced video/image models"
-    ],
-    "pricingDetails": "Pro /mo. Enterprise custom."
-  },
-  {
-    "name": "Workbeaver",
-    "slug": null,
-    "url": "https://workbeaver.ai",
-    "description": "AI automation agent that builds and runs workflows from simple text prompts.",
-    "category": "Productivity",
-    "pricing": "Freemium",
-    "rating": 4.2,
-    "popularity": 75,
-    "id": "workbeaver",
-    "summary": "An AI automation agent that builds and runs workflows from simple text prompts. Just describe the task and it does the work for you, saving hours on repetitive admin tasks.",
-    "features": [
-      "Prompt-based automation",
-      "No-code workflow builder",
-      "Cross-app integrations",
-      "Background execution",
-      "Daily scheduled tasks"
-    ],
-    "pricingDetails": "Free tier available. Pro /mo."
-  },
-  {
-    "name": "Veo 3",
-    "slug": "google",
-    "url": "https://deepmind.google/technologies/veo/",
-    "description": "Google�s state-of-the-art realistic video generation model.",
-    "category": "Video",
-    "pricing": "Paid",
-    "rating": 4.8,
-    "popularity": 89,
-    "id": "veo-3",
-    "summary": "Google�s latest hyper-realistic video generation model that creates high-fidelity, physically accurate cinematic clips from text. Integrated into Vertex AI and select partner platforms.",
-    "features": [
-      "Hyper-realistic video generation",
-      "Accurate physical physics",
-      "Long-duration clips",
-      "Advanced prompt adherence",
-      "Cinematic camera controls"
-    ],
-    "pricingDetails": "Available via Google Vertex AI API. Usage-based pricing."
-  },
-  {
-    "name": "Freepik AI",
-    "slug": "freepik",
-    "url": "https://www.freepik.com/ai",
-    "description": "Comprehensive suite of AI image generation and editing tools built into Freepik.",
-    "category": "Design",
-    "pricing": "Freemium",
-    "rating": 4.5,
-    "popularity": 85,
-    "id": "freepik-ai",
-    "summary": "A comprehensive suite of AI image generation and editing tools built into the popular Freepik asset platform. Known for highly consistent visual outputs and an intuitive infinite canvas.",
-    "features": [
-      "High-consistency image generation",
-      "Infinite canvas editing",
-      "Real-time generation",
-      "Vector output support",
-      "Seamless asset library integration"
-    ],
-    "pricingDetails": "Free daily limits. Premium .99/mo."
-  },
-  {
-    "name": "Winston AI",
-    "slug": null,
-    "url": "https://gowinston.ai",
-    "description": "Industry-leading AI content detection and humanization platform.",
-    "category": "Writing",
-    "pricing": "Paid",
-    "rating": 4.4,
-    "popularity": 72,
-    "id": "winston-ai",
-    "summary": "Advanced AI content detection tool built for educators and web publishers to ensure content authenticity. Also features tools to humanize AI text to bypass strict detectors.",
-    "features": [
-      "99% accurate AI detection",
-      "Plagiarism checking",
-      "Readability scoring",
-      "AI content humanizer",
-      "API access for bulk scanning"
-    ],
-    "pricingDetails": "Essential /mo. Advanced /mo."
-  },
-  {
-    "name": "Claude Code",
-    "id": "claude-code",
-    "url": "https://anthropic.com/claude-code",
-    "description": "Anthropic's agentic CLI tool that autonomously writes, edits, and debugs code in your local environment.",
-    "summary": "Claude Code is Anthropic's new CLI-based agent that lives in your terminal. It can navigate your codebase, run tests, fix bugs, and commit changes autonomously, functioning as an integrated junior developer.",
-    "features": [
-      "Autonomous code generation",
-      "Local terminal integration",
-      "Runs tests and debugs",
-      "Multi-file refactoring",
-      "Git integration"
-    ],
-    "pricingDetails": "Billed via Anthropic API usage. Requires Claude API key.",
-    "category": "Coding",
-    "pricing": "Freemium",
-    "rating": 4.8,
-    "popularity": 96
-  },
-  {
-    "name": "Higgsfield AI",
-    "id": "higgsfield",
-    "url": "https://higgsfield.ai",
-    "description": "AI video creation platform specifically tailored for social media creators and marketing teams.",
-    "summary": "Higgsfield democratizes AI video creation with a mobile-first platform designed for social media. It allows creators to generate, edit, and remix highly realistic video clips with precise character and camera controls.",
-    "features": [
-      "Mobile-first video generation",
-      "Precise character consistency",
-      "Social media templates",
-      "Camera and motion controls",
-      "Text-to-video and image-to-video"
-    ],
-    "pricingDetails": "Free tier with credits. Pro plan at $15/mo.",
-    "category": "Video",
-    "pricing": "Freemium",
-    "rating": 4.4,
-    "popularity": 75
-  },
-  {
-    "name": "Klu",
-    "id": "klu",
-    "url": "https://klu.ai",
-    "description": "Unified AI search and chat workspace that connects to all your company's internal apps and data.",
-    "summary": "Klu centralizes your company's knowledge by connecting to Google Drive, Notion, Slack, and other apps. It provides a unified search and AI chat interface to find answers instantly across your entire organization's data.",
-    "features": [
-      "Connects to 50+ internal apps",
-      "Unified AI search",
-      "Generative answers with citations",
-      "Custom AI apps without code",
-      "Enterprise-grade security"
-    ],
-    "pricingDetails": "Free for individuals. Pro $20/user/mo. Enterprise custom.",
-    "category": "Productivity",
-    "pricing": "Freemium",
-    "rating": 4.5,
-    "popularity": 68
-  },
-  {
-    "name": "Oasis",
-    "id": "oasis",
-    "url": "https://decart.ai/oasis",
-    "description": "The first playable, real-time AI world generated entirely by a foundation model.",
-    "summary": "Oasis by Decart is a breakthrough interactive AI model that generates a playable, Minecraft-like environment in real-time. Instead of a traditional game engine, the entire physics, lighting, and gameplay are simulated frame-by-frame by an AI neural network.",
-    "features": [
-      "Real-time interactive video generation",
-      "Playable AI environment",
-      "Zero game engine code",
-      "Physics and lighting simulation",
-      "Web-based gameplay"
-    ],
-    "pricingDetails": "Free during beta.",
-    "category": "Video",
-    "pricing": "Free",
-    "rating": 4.7,
-    "popularity": 88
-  },
-  {
-    "name": "Domscribe",
-    "id": "domscribe",
-    "url": "https://domscribe.dev",
-    "description": "UI-aware AI coding agent that visually understands web applications to fix frontend bugs.",
-    "summary": "Domscribe bridges the gap between design and code by allowing AI to see your live web application. It uses DOM awareness and visual regression to fix UI bugs, adjust CSS, and build React components with perfect pixel accuracy.",
-    "features": [
-      "Visual UI understanding",
-      "Live DOM manipulation",
-      "Automated CSS fixes",
-      "React component generation",
-      "Visual regression testing"
-    ],
-    "pricingDetails": "Starter $19/mo. Pro $49/mo.",
-    "category": "Coding",
-    "pricing": "Paid",
-    "rating": 4.3,
-    "popularity": 65
   }
 ]
