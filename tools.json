@@ -327,9 +327,9 @@
     "category": "Writing",
     "pricing": "Freemium",
     "rating": 4.7,
-    "popularity": 99,
+    "popularity": 85,
     "id": "claude",
-    "summary": "Anthropic's AI assistant excelling at analysis, coding, math, and long-document reasoning. Claude 3.7 Sonnet introduces extended reasoning capabilities and powerful agentic features.",
+    "summary": "Anthropic's AI assistant excelling at analysis, coding, math, and long-document reasoning. Claude 3.7 Sonnet introduces extended reasoning capabilities and powerful agentic features. Note: Anthropic recently restricted third-party agent access, impacting its ecosystem.",
     "features": [
       "Extended context window",
       "Advanced reasoning (Claude 3.7)",
@@ -546,7 +546,7 @@
     "category": "Coding",
     "pricing": "Freemium",
     "rating": 4.6,
-    "popularity": 99,
+    "popularity": 100,
     "id": "cursor",
     "summary": "AI-first code editor built on VS Code with intelligent autocomplete, multi-file editing, and codebase-aware chat. Cursor remains the reference point in AI coding and just got another visibility bump from the Cursor 3 launch, which pushed parallel agent workflows and stronger multi-repo coordination into the mainstream.",
     "features": [
@@ -898,6 +898,26 @@
     "pricingDetails": "Free for students/OSS. Individual $10/mo. Business $19/user/mo. Enterprise $39/user/mo."
   },
   {
+    "name": "Google Gemma 4",
+    "slug": "gemma-4",
+    "url": "https://ai.google.dev/gemma",
+    "description": "Google's most intelligent open-weight models to date, offering state-of-the-art performance.",
+    "category": "Coding",
+    "pricing": "Free",
+    "rating": 4.8,
+    "popularity": 94,
+    "id": "gemma-4",
+    "summary": "Google's Gemma 4 represents a massive leap in open-weight models. It offers state-of-the-art reasoning, coding, and general intelligence, challenging the top proprietary models while running locally or in custom infrastructure.",
+    "features": [
+      "State-of-the-art open-weight performance",
+      "Advanced coding and math reasoning",
+      "Highly optimized for efficient inference",
+      "Multiple size variants for different hardware",
+      "Strong safety and alignment fine-tuning"
+    ],
+    "pricingDetails": "Open-weight and free to use."
+  },
+  {
     "name": "Google Vids",
     "slug": "google",
     "url": "https://workspace.google.com/products/vids",
@@ -1135,6 +1155,26 @@
       "Remix and edit features"
     ],
     "pricingDetails": "Free tier with daily credits. Basic $8/mo. Plus $20/mo. Pro $60/mo."
+  },
+  {
+    "name": "Influcio",
+    "slug": "influcio",
+    "url": "https://influcio.com",
+    "description": "AI agent that autonomously runs your entire influencer marketing strategy.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.6,
+    "popularity": 82,
+    "id": "influcio",
+    "summary": "Influcio hit #1 on Product Hunt by promising an AI agent that runs entire influencer campaigns. It handles discovery, outreach, negotiation, and tracking, automating a traditionally labor-intensive marketing channel.",
+    "features": [
+      "Autonomous influencer discovery",
+      "Automated outreach and follow-ups",
+      "Campaign negotiation",
+      "Performance tracking and ROI analytics",
+      "Content approval workflows"
+    ],
+    "pricingDetails": "Pricing starts at $99/mo for small brands. Enterprise plans available."
   },
   {
     "name": "Intercom Fin",
@@ -1795,6 +1835,26 @@
     "pricingDetails": "Growth $75/mo. Enterprise custom pricing."
   },
   {
+    "name": "Ogoron",
+    "slug": "ogoron",
+    "url": "https://ogoron.com",
+    "description": "AI QA team that tests software 9x faster and 20x cheaper.",
+    "category": "Coding",
+    "pricing": "Paid",
+    "rating": 4.5,
+    "popularity": 79,
+    "id": "ogoron",
+    "summary": "Ogoron acts as an autonomous QA team, generating and executing tests significantly faster and cheaper than manual QA. It understands app context to find edge cases and UI bugs.",
+    "features": [
+      "Autonomous test generation",
+      "Visual and functional testing",
+      "Integration with CI/CD pipelines",
+      "Self-healing test scripts",
+      "Comprehensive bug reporting"
+    ],
+    "pricingDetails": "Starts at $199/mo. Scale plans available."
+  },
+  {
     "name": "OpenBox",
     "id": "openbox",
     "slug": null,
@@ -1820,7 +1880,7 @@
     "slug": null,
     "url": "https://openclaw.ai",
     "description": "Open-source AI assistant that lives on your machine — connects to your apps, messages, and workflow. Currently in beta.",
-    "summary": "OpenClaw is an open-source personal AI agent that runs locally on your computer and connects to your real-world tools — Discord, email, calendar, files, and more. It acts as a persistent co-pilot that remembers context across sessions and can automate tasks proactively. Currently in beta with an active developer community.",
+    "summary": "OpenClaw is an open-source personal AI agent that runs locally on your computer and connects to your real-world tools — Discord, email, calendar, files, and more. It acts as a persistent co-pilot that remembers context across sessions and can automate tasks proactively. Gaining steady traction among power users for its local orchestration with an active developer community.",
     "features": [
       "Runs locally on your machine",
       "Connects to Discord, Telegram, WhatsApp, and more",
@@ -1832,7 +1892,7 @@
     "category": "Productivity",
     "pricing": "Free",
     "rating": 4.8,
-    "popularity": 75
+    "popularity": 85
   },
   {
     "name": "Opus Clip",
@@ -1873,6 +1933,26 @@
       "Searchable conversation history"
     ],
     "pricingDetails": "Free plan with 300 min/mo. Pro $17/mo. Business $40/user/mo."
+  },
+  {
+    "name": "Panorama",
+    "slug": "panorama",
+    "url": "https://panorama.so",
+    "description": "AI that analyzes team workflows to discover hidden structures and bottlenecks.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "rating": 4.7,
+    "popularity": 85,
+    "id": "panorama",
+    "summary": "Panorama maps out how your team actually works by analyzing tool usage and communication. It identifies hidden workflows, bottlenecks, and knowledge silos without manual mapping.",
+    "features": [
+      "Automatic workflow discovery",
+      "Bottleneck identification",
+      "Cross-tool activity mapping",
+      "Knowledge silo detection",
+      "Process optimization insights"
+    ],
+    "pricingDetails": "Team plan $12/user/mo. Enterprise custom."
   },
   {
     "name": "Pecan AI",
@@ -1973,6 +2053,26 @@
       "Browser-based recording"
     ],
     "pricingDetails": "Free during beta. Future pricing TBD."
+  },
+  {
+    "name": "Predflow AI",
+    "slug": "predflow-ai",
+    "url": "https://predflow.ai",
+    "description": "AI agent for monitoring, predicting, and optimizing ad performance.",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "rating": 4.4,
+    "popularity": 75,
+    "id": "predflow-ai",
+    "summary": "Predflow AI acts as your personal AI agent for ad performance. It analyzes ad accounts, predicts campaign success, and autonomously suggests or makes optimizations to improve ROI.",
+    "features": [
+      "Ad performance prediction",
+      "Autonomous campaign optimization",
+      "Cross-platform ad analysis",
+      "Budget allocation recommendations",
+      "Real-time alerts and insights"
+    ],
+    "pricingDetails": "Starts at $49/mo. Pro $149/mo."
   },
   {
     "name": "Predis.ai",
@@ -2253,26 +2353,6 @@
       "Multi-language support"
     ],
     "pricingDetails": "Free plan with 3 presentations/mo. Pro $10/mo."
-  },
-  {
-    "name": "Sora",
-    "slug": "openai",
-    "url": "https://openai.com/sora",
-    "description": "OpenAI’s text-to-video model generating realistic cinematic clips from prompts.",
-    "category": "Video",
-    "pricing": "Paid",
-    "rating": 4.6,
-    "popularity": 85,
-    "id": "sora",
-    "summary": "OpenAI's text-to-video model generating realistic cinematic clips from text prompts. Now widely available, producing up to 60-second videos with consistent characters, physics, and audio generation.",
-    "features": [
-      "Text-to-video generation",
-      "Up to 60-second clips",
-      "Realistic motion and physics",
-      "Storyboard mode",
-      "Video remixing and editing"
-    ],
-    "pricingDetails": "Available to ChatGPT Plus and Pro users. Video generation counts towards usage limits."
   },
   {
     "name": "Soundraw",
@@ -2673,6 +2753,26 @@
       "Vocal and instrumental tracks"
     ],
     "pricingDetails": "Free tier with 10 generations/day. Standard $10/mo. Pro $30/mo."
+  },
+  {
+    "name": "UPDF 2.5",
+    "slug": "updf",
+    "url": "https://updf.com",
+    "description": "AI-powered PDF solution with autonomous agents for document workflows.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "rating": 4.5,
+    "popularity": 78,
+    "id": "updf",
+    "summary": "UPDF 2.5 introduces autonomous AI agents to PDF workflows. It gained significant traction on Product Hunt for automating document analysis, summarization, and data extraction directly within PDFs.",
+    "features": [
+      "Autonomous AI agents for PDFs",
+      "Document summarization and analysis",
+      "Data extraction and chat",
+      "Cross-platform support",
+      "Advanced editing and OCR"
+    ],
+    "pricingDetails": "Free trial available. Pro plans start at $39.99/year."
   },
   {
     "name": "v0",
